@@ -1,6 +1,6 @@
 rm(list = ls())
 options(device="X11")
-
+blabla
 
 Hadwiger <- function(a, b, c, x){
   ## function for computing asfr from
