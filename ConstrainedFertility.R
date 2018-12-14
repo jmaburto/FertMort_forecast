@@ -1,6 +1,5 @@
 rm(list = ls())
 options(device="X11")
-blabla
 
 Hadwiger <- function(a, b, c, x){
   ## function for computing asfr from
@@ -11,104 +10,237 @@ Hadwiger <- function(a, b, c, x){
   return(asfr)
 }
 
-x <- 12:49
+x <- 12:55
 m <- length(x)
-y <- 1950:2010
-n <- length(y)
+t <- 1946:2016
+n <- length(t)
 colon <- rainbow(n)
 colom <- rainbow(m)
+
 # a, b and c are associated with total fertility, height of
 # the curve and Mean Age at Childbearing.
 
 ## true series of parameters
-a.T <- seq(1.3, 1.5, length=n)
-b.T <- seq(3.5, 4, length=n)
-c.T <- seq(25, 30, length=n)
-
+PAR <- read.table("PAR.Hadwiger.txt", header=TRUE)
 
 ## true underlying fertility over age and time
 MU.T <- matrix(0, m, n)
 for(i in 1:n){
-  MU.T[,i] <- Hadwiger(a.T[i], b.T[i], c.T[i], x=x)
+  MU.T[,i] <- Hadwiger(PAR[i,1], PAR[i,2], PAR[i,3], x=x)
 }
 matplot(x, MU.T, t="l", col=colon)
 
+# true linear predictor
+ETA.T <- log(MU.T)
 
+## exposures
+E0 <- read.table("FRATNPexposRR.txt", header=TRUE, skip=2)
+E <- matrix(E0$Exposure, m, n)
+# E <- E/100
 
+## Poisson expected values: true number of births
+Y.T <- E * MU.T
 
+## simulating births
+Y <- matrix(rpois(m*n, c(Y.T)), m, n)
 
+## simulated ASFR
+MX <- Y/E
+## in log
+lMX <- log(Y/E)
 
-## 
-rm(list = ls())
-options(device="X11")
-
-
-Hadwiger <- function(a, b, c, x){
-  ## function for computing asfr from
-  ## Hadwiger (1940) model
-  p1 <- a*b/c * (c/x)^(3/2)
-  p2 <- -b^2 * (c/x + x/c -2)
-  asfr <- p1*exp(p2)
-  return(asfr)
+whi <- floor(seq(1,n,length=4))
+rany <- range(MX, MU.T)
+par(mfrow=c(2,2))
+for(i in 1:4){
+  plot(x, MX[,whi[i]], pch=16, 
+       col=colon[whi[i]], main=paste(t[whi[i]]),
+       ylim=rany)
+  lines(x, MU.T[,whi[i]], col=colon[whi[i]], lwd=2)
 }
+par(mfrow=c(1,1))
 
-ASFR0 <- read.table("FRATNPasfrRR.txt", header=TRUE, skip=2)
-y <- unique(ASFR0$Year)
-x <- 12:55
-m <- length(x)
-n <- length(y)
+## compute observed TFR
+TFR <- colSums(MX)
+plot(t, TFR)
 
-ASFR <- matrix(ASFR0$ASFR, m, n)
+## compute mean age at childbearing
+MAB <- apply(MX, 2, 
+             function(mx) sum(mx*(x+0.5)) / sum(mx))
+plot(t, MAB)
 
-
-
-objFUN <- function(par, asfr.obs, x){
-  a <- par[1]
-  b <- par[2]
-  c <- par[3]
-  asfr.hat <- Hadwiger(a,b,c,x)
-  RSS <- sum((asfr.hat - asfr.obs)^2)
-  return(RSS)
-}
-
-PAR.hat <- matrix(0, n, 3)
-st.val <- c(1.5, 3.8, 28)
+## compute variance age at childbearing
+VAB <- numeric(n)
 for(i in 1:n){
-  opt <- optim(st.val, objFUN, asfr.obs=ASFR[,i], x=x)
-  st.val <- opt$par
-  PAR.hat[i,] <- opt$par
-  # plot(x, ASFR[,i])
-  # lines(x, Hadwiger(opt$par[1], opt$par[2], opt$par[3], x=x), col=2)
-  # locator(1)
+  mx <- MX[,i]
+  mab <- MAB[i]
+  VAB[i] <- sum((((x+0.5) - mab)^2)*mx)/sum(mx)
 }
-par(mfrow=c(3,1))
-plot(y, PAR.hat[,1])
-plot(y, PAR.hat[,2])
-plot(y, PAR.hat[,3])
+
+## plotting summary measures
+par(mfrow=c(1,3))
+plot(t, TFR)
+plot(t, MAB)
+plot(t, VAB)
 par(mfrow=c(1,1))
 
-## smoothing fitted parameters
-PAR <- PAR.hat*0
-PAR[,1] <- loess(PAR.hat[,1]~y, span=0.2)$fitted
-PAR[,2] <- loess(PAR.hat[,2]~y, span=0.2)$fitted
-PAR[,3] <- loess(PAR.hat[,3]~y, span=0.2)$fitted
-  
-par(mfrow=c(3,1))
-plot(y, PAR.hat[,1])
-lines(y, PAR[,1], col=2)
-plot(y, PAR.hat[,2])
-lines(y, PAR[,2], col=2)
-plot(y, PAR.hat[,3])
-lines(y, PAR[,3], col=2)
-par(mfrow=c(1,1))
-
-colnames(PAR) <- letters[1:3]
-rownames(PAR) <- y
+# plot(VAB, TFR, t="n")
+# text(x=VAB, y=TFR, labels=t-1900, col=colon)
 
 
-## save smooth parameters
-write.table(PAR, "PAR.Hadwiger.txt")
+## assuming we know only asfr
+## up to 1996, but we have knowledge 
+## of TFR, MAB and VAB up to 2016 (actually computed)
+## and we wanna forecast all asfr up to
+## 2016 by constraining each "future" age-pattern to 
+## follow the previously mentioned summary measures
+
+t1 <- t[1]:1996
+n1 <- length(t1)
+
+Y1 <- Y[,1:n1]
+E1 <- E[,1:n1]
+MX1 <- Y1/E1
+lMX1 <- log(MX1)
+
+## keep aside all asfr we in theory know
+Yobs <- Y
+Eobs <- E
+MXobs <- MX
+lMXobs <- lMX
+TFRobs <- TFR
+MABobs <- MAB
+VABobs <- VAB
 
 
-bla <- read.table("PAR")
+## replace with arbitrary values all info
+## after 1996, whatthe last year we assume to know
+## this step is need to estimate up to 1996
+## and simoultaneously forecast afterwards
+Y <- matrix(10, m, n)
+Y[1:m,1:n1] <- Y1
+E <- matrix(10, m, n)
+E[1:m,1:n1] <- E1
+
+## set weights equal to zero
+## to years 1997:2016
+## 0/1 weight for forecasts
+WEI <- matrix(0, m, n)
+WEI[,1:n1] <- 1
+## set equal to zero when we have no exposures
+WEI[E==0] <- 0
+## unimportant in fertility, crucial in mortality
+
+
+## B-splines
+library(MortalitySmooth)
+## over ages
+Bx <- MortSmooth_bbase(x=x, xl=min(x), xr=max(x),
+                       ndx=floor(m/4), deg=3)
+nbx <- ncol(Bx)
+## over all years (observed+forecast)
+Bt <- MortSmooth_bbase(x=t, xl=min(t), xr=max(t),
+                       ndx=floor(n/4), deg=3)
+nbt <- ncol(Bt)
+## select only for the observed years
+Bt1 <- Bt[1:n1, 1:(nbt-3-1)]
+
+## plotting(checking) B-splines bases over years
+matplot(t, Bt, t="l", lwd=3, lty=3,
+        col=rainbow(nbt))
+matlines(t1, Bt1, t="l", lty=1, lwd=2,
+         col=rainbow(nbt)[1:16])
+abline(v=t[n1])
+
+## overall basis
+B <- kronecker(Bt, Bx)
+nb <- ncol(B)
+
+
+## penalty stuff
+Dx <- diff(diag(nbx), diff=2)
+tDDx <- t(Dx)%*%Dx
+Dt <- diff(diag(nbt), diff=2)
+tDDt <- t(Dt)%*%Dt
+Px <- kronecker(diag(nbt), tDDx)
+Pt <- kronecker(tDDt, diag(nbx))
+## smoothing parameters
+lambdas <- c(10^2, 10^5)
+lambda.x <- lambdas[1]
+lambda.t <- lambdas[2]
+P <- lambda.x * Px + lambda.t * Pt
+
+## data in vector
+
+y <- c(Y)
+e <- c(E)
+wei <- c(WEI)
+
+## simple data-driven forecast
+eta <- log((y+1)/(e+1))
+for(it in 1:20){
+  mu <- e*exp(eta)
+  z <- (y - mu)/mu + eta
+  w <- c(wei*mu)
+  tBWB <- t(B) %*% (w * B)
+  tBWBpP <- tBWB + P
+  tBWz <- t(B) %*% (w * z)
+  betas <- solve(tBWBpP, tBWz)
+  old.eta <- eta
+  eta <- B %*% betas
+  dif.eta <- max(abs(old.eta - eta))
+  cat(it, dif.eta, "\n")
+  if(dif.eta < 1e-4) break
+}
+eta.hat <- eta
+mu.hat <- exp(eta)
+ETA.hat <- matrix(eta.hat, m, n)
+MU.hat <- matrix(mu.hat, m, n)
+
+
+ranx <- range(t)
+for(i in 1:m){
+  rany <- range(MX1[i,], MU.hat[i,])
+  plot(t1, MX1[i,], xlim=ranx, ylim=rany)
+  lines(t, MU.hat[i,], col=2, lwd=2)
+  title(main=x[i])
+  # locator(1)
+  Sys.sleep(0.1)
+}
+for(i in 1:n){
+  if(i<=n1){
+    rany <- range(MX1[,i], MU.hat[,i])
+    plot(x, MX1[,i], ylim=rany)
+    lines(x, MU.hat[,i], col=2, lwd=2)
+  }else{
+    plot(x, MU.hat[,i], t="l", col=2, lwd=2)
+  }
+  title(main=t[i])
+  # locator(1)
+  Sys.sleep(0.1)
+}
+
+## compute estimated and forecast summary measures
+TFR <- colSums(MU.hat)
+plot(t, TFR)
+points(t, TFRobs, col=c(rep(2,n1), rep(3,n-n1)))
+
+MAB <- apply(MU.hat, 2, 
+             function(mx) sum(mx*(x+0.5)) / sum(mx))
+plot(t, MAB)
+points(t, MABobs, col=c(rep(2,n1), rep(3,n-n1)))
+
+## compute variance age at childbearing
+VAB <- numeric(n)
+for(i in 1:n){
+  mx <- MU.hat[,i]
+  mab <- MAB[i]
+  VAB[i] <- sum((((x+0.5) - mab)^2)*mx)/sum(mx)
+}
+plot(t, VAB)
+points(t, VABobs, col=c(rep(2,n1), rep(3,n-n1)))
+
+
+
+
 
