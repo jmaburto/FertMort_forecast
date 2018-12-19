@@ -1,0 +1,106 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TEMPLATE FOR ARTICLES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[top=3.5cm, bottom=2.5cm, outer=2.5cm, inner=2.5cm, headsep=1.5cm, footskip=1.2cm, headheight=14pt]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}							% Different enumarate options
+\usepackage{graphicx}							% standard LaTeX graphics tool
+\usepackage{natbib}							% Bibliography
+\usepackage[final]{pdfpages}						% Include pdfs in the latex document
+\usepackage{xcolor}							% Put color in one page
+\usepackage{afterpage}							% Control the subsequent page
+\usepackage{setspace}							% Control line space
+\usepackage[bottom]{footmisc}						% Manage footnotes. Used to modify the indentation and force footnotes bottom page. Necessary befor hyperref !!!
+\usepackage[colorlinks = true, urlcolor = blue]{hyperref}		% Include hyperlinks
+\usepackage{etoolbox}							% Add patches
+\usepackage{url}							% Include URL in the references
+\usepackage{sectsty}							% Modify font of headers
+\usepackage{fancyhdr}							% Fancy headers
+\usepackage[width=0.95\textwidth]{caption} 				% Mange font size and margins of captions
+\usepackage{changepage}							% Temporary change page settings
+\usepackage[rightmargin=0em]{quoting}					% Add quotations in text
+
+% Hyperlinks in references only for YEAR
+\makeatletter
+% Patch case where name and year are separated by aysep
+\patchcmd{\NAT@citex}
+  {\@citea\NAT@hyper@{%
+     \NAT@nmfmt{\NAT@nm}%
+     \hyper@natlinkbreak{\NAT@aysep\NAT@spacechar}{\@citeb\@extra@b@citeb}%
+     \NAT@date}}
+  {\@citea\NAT@nmfmt{\NAT@nm}%
+   \NAT@aysep\NAT@spacechar\NAT@hyper@{\NAT@date}}{}{}
+% Patch case where name and year are separated by opening bracket
+\patchcmd{\NAT@citex}
+  {\@citea\NAT@hyper@{%
+     \NAT@nmfmt{\NAT@nm}%
+     \hyper@natlinkbreak{\NAT@spacechar\NAT@@open\if*#1*\else#1\NAT@spacechar\fi}%
+       {\@citeb\@extra@b@citeb}%
+     \NAT@date}}
+  {\@citea\NAT@nmfmt{\NAT@nm}%
+   \NAT@spacechar\NAT@@open\if*#1*\else#1\NAT@spacechar\fi\NAT@hyper@{\NAT@date}}
+  {}{}
+\makeatother
+
+% Manage footnotecolor (hyperlink)
+\makeatletter
+\def\@footnotecolor{red}
+\define@key{Hyp}{footnotecolor}{%
+ \HyColor@HyperrefColor{#1}\@footnotecolor%
+}
+\def\@footnotemark{%
+    \leavevmode
+    \ifhmode\edef\@x@sf{\the\spacefactor}\nobreak\fi
+    \stepcounter{Hfootnote}%
+    \global\let\Hy@saved@currentHref\@currentHref
+    \hyper@makecurrent{Hfootnote}%
+    \global\let\Hy@footnote@currentHref\@currentHref
+    \global\let\@currentHref\Hy@saved@currentHref
+    \hyper@linkstart{footnote}{\Hy@footnote@currentHref}%
+    \@makefnmark
+    \hyper@linkend
+    \ifhmode\spacefactor\@x@sf\fi
+    \relax
+  }%
+\makeatother
+
+% To allow one footnote with astherisk
+\makeatletter
+\def\@xfootnote[#1]{%
+  \protected@xdef\@thefnmark{#1}%
+  \@footnotemark\@footnotetext}
+\makeatother
+
+% Comma to separate footnotes
+\newcommand\fnsep{\textsuperscript{,}}
+
+% References with no comma
+\setcitestyle{aysep={}}	
+
+% Command to prevent some hyperlinks (used to avoid links with \citeauthor)
+\newcommand*{\nolink}[1]{%
+  \begin{NoHyper}#1\end{NoHyper}%
+}
+
+% Numbering subsubsections
+\setcounter{secnumdepth}{3}
+
+% Footnote indentation
+\setlength{\footnotemargin}{0.6em}
+
+% Distance between footnote number and text
+\renewcommand{\footnotelayout}{\hspace{0.28em}}
+
+% Clear page in some cases at the end of section
+\newcommand*{\stopsection}{%
+  \par
+  \vspace{\fill}%
+  \pagebreak[0]%
+  \vspace{-\fill}%
+}
+
+% Subsubsection header in italics
+\subsubsectionfont{\normalfont\bfseries\itshape}

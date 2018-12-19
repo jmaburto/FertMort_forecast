@@ -1,0 +1,95 @@
+
+\documentclass[a4paper,twoside, openright, 12pt, leqno]{article}
+
+% Upload template for articles
+\usepackage{ArticleTemp}
+
+\usepackage{amsthm}                    % Number theorems
+\usepackage{multirow}                    % Multiple rows in tables
+\usepackage{placeins}                    % Use \FloatBarrier to put figures and tables in current section
+
+% TABLES: Alignment columns    
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+% Customize headers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\small\thepage}
+\fancyhead[LO]{\small \nouppercase{Life lived and left in stable populations}}
+\fancyhead[RE]{\small \nouppercase{J. W. Vaupel and F. Villavicencio}}
+\fancyfoot[L,R,C]{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Proposition with no numbering
+% \newtheorem{proposition}{Proposition}
+\newtheorem*{proposition}{Proposition}
+ 
+% Begin document
+\begin{document}
+
+% Remove header from the first page
+\thispagestyle{empty}
+
+% Affilations as footnotes with symmbols
+% \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\thefootnote}{\alph{footnote}}
+
+% Hyperlinks in title in black (Except E-Mail address)
+\hypersetup{allcolors = black, footnotecolor = black, urlcolor = blue}
+
+\begin{center}
+    
+    \vspace*{.4cm}
+    \LARGE{Life lived and left: Estimating the age composition of a stable population with unknown ages}    
+    \vspace{.4cm}
+   
+    %\hypersetup{footnotecolor=black}
+           
+   \vspace{1cm}
+    \large James W. Vaupel\footnote{Max Planck Institute for Demographic Research, Rostock, Germany. E-Mail: \href{mailto:vaupel@demogr.mpg.de}{vaupel@demogr.mpg.de}.}\fnsep\footnote{Max-Planck Odense Center on the Biodemography of Aging, Department of Public Health, University of Southern Denmark, Odense, Denmark.\label{MaxO}} and Francisco Villavicencio\textsuperscript{\ref{MaxO}}
+    %and Fernando Colchero\textsuperscript{\ref{MaxO}}\fnsep\footnote{Department of Mathematics and Computer Science, University of Southern Denmark, Odense, Denmark.}
+    
+    \vspace{1cm}
+    \large\today
+    \vspace{1cm}
+    
+\end{center}
+
+% In text use numbers for footnotes
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{0}
+
+% All hyperlinks in blue in text
+\hypersetup{allcolors = blue, footnotecolor = blue}
+
+\section*{Abstract}
+
+
+% Line interpsace
+\linespread{1.5}\normalsize
+\clearpage
+
+\section{Introduction}
+
+
+
+\section*{Appendix B}
+
+R code for the simulated data
+
+% Line interpsace
+\linespread{1}\normalsize
+
+% Font size
+\small
+
+% References
+%\bibliographystyle{chicago}
+%\bibliography{references.bib}
+
+\end{document} 
+
