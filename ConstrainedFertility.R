@@ -1,4 +1,5 @@
 rm(list = ls())
+
 options(device="X11")
 
 Hadwiger <- function(a, b, c, x){
