@@ -241,6 +241,69 @@ plot(t, VAB)
 points(t, VABobs, col=c(rep(2,n1), rep(3,n-n1)))
 
 
+## constrining only on TFR
 
 
 
+
+
+
+
+
+
+
+
+## simple unidimensional fit of asfr 
+## with constraint on the TFR
+## which is the sum of the asfr
+
+rm(list = ls())
+options(device="X11")
+
+Hadwiger <- function(a, b, c, x){
+  ## function for computing asfr from
+  ## Hadwiger (1940) model
+  p1 <- a*b/c * (c/x)^(3/2)
+  p2 <- -b^2 * (c/x + x/c -2)
+  asfr <- p1*exp(p2)
+  return(asfr)
+}
+
+x <- 12:55
+m <- length(x)
+
+# a, b and c are associated with total fertility, height of
+# the curve and Mean Age at Childbearing.
+mu.T <- Hadwiger(1.25, 3.5, 28, x=x)
+
+# true linear predictor
+eta.T <- log(mu.T)
+
+## exposures
+e <- c(421660,415695,420043,415994,418983,
+       413376,414893,414386,416835,413434,
+       416274,415330,421366,429169,432178,
+       427665,419672,361242,309296,308672,
+       294653,274481,252437,290595,294925,
+       298035,302802,305092,314129,318449,
+       324701,332193,338598,329218,327132,
+       328347,326924,327279,327114,321125,
+       322818,329727,337702,285953)
+e <- e/100
+## true expected values
+y.T <- e*mu.T
+
+## simulating counts
+y <- rpois(m, y.T)
+## simulating rates
+mx <- y/e
+## simulating log-rates
+lmx <- log(mx)
+
+plot(x, lmx)
+lines(x, eta.T)
+
+## simple discrete smothing
+Im <- diag(m)
+D <- diff(Im, diff=2)
+tDD <- t(D)%*D
