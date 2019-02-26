@@ -1,0 +1,162 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Aburto and van Raalte}{Aburto and van
+  Raalte}{2018}]{Aburto2018Eastern}
+Aburto, J.~M. and A.~A. van Raalte (2018).
+\newblock Lifespan dispersion in times of life expectancy fluctuation: The case
+  of {C}entral and {E}astern {E}urope.
+\newblock {\em Demography\/}~{\em 55\/}(6), 2071--2096.
+
+\bibitem[\protect\citeauthoryear{Alkema, Raftery, Gerland, Clark, Pelletier,
+  Buettner, and Heilig}{Alkema et~al.}{2011}]{alkema2011probabilistic}
+Alkema, L., A.~E. Raftery, P.~Gerland, S.~J. Clark, F.~Pelletier, T.~Buettner,
+  and G.~K. Heilig (2011).
+\newblock Probabilistic projections of the total fertility rate for all
+  countries.
+\newblock {\em Demography\/}~{\em 48\/}(3), 815--839.
+
+\bibitem[\protect\citeauthoryear{Bohk-Ewald, Ebeling, and Rau}{Bohk-Ewald
+  et~al.}{2017}]{bohk2017lifespan}
+Bohk-Ewald, C., M.~Ebeling, and R.~Rau (2017).
+\newblock Lifespan disparity as an additional indicator for evaluating
+  mortality forecasts.
+\newblock {\em Demography\/}~{\em 54\/}(4), 1559--1577.
+
+\bibitem[\protect\citeauthoryear{Bohk-Ewald, Li, and Myrskyl{\"a}}{Bohk-Ewald
+  et~al.}{2018}]{bohk2018forecast}
+Bohk-Ewald, C., P.~Li, and M.~Myrskyl{\"a} (2018).
+\newblock Forecast accuracy hardly improves with method complexity when
+  completing cohort fertility.
+\newblock {\em Proceedings of the National Academy of Sciences\/}~{\em
+  115\/}(37), 9187--9192.
+
+\bibitem[\protect\citeauthoryear{Chandola, Coleman, and Hiorns}{Chandola
+  et~al.}{1999}]{chandola1999recent}
+Chandola, T., D.~A. Coleman, and R.~W. Hiorns (1999).
+\newblock Recent european fertility patterns: Fitting curves to
+  ‘distorted’distributions.
+\newblock {\em Population Studies\/}~{\em 53\/}(3), 317--329.
+
+\bibitem[\protect\citeauthoryear{Coale and Trussell}{Coale and
+  Trussell}{1974}]{coale1974model}
+Coale, A.~J. and T.~J. Trussell (1974).
+\newblock Model fertility schedules: variations in the age structure of
+  childbearing in human populations.
+\newblock {\em Population index\/}~{\em 1\/}(1), 185--258.
+
+\bibitem[\protect\citeauthoryear{Colchero, Rau, Jones, Barthold, Conde, Lenart,
+  N{\'e}meth, Scheuerlein, Schoeley, Torres, ..., Alberts, and Vaupel}{Colchero
+  et~al.}{2016}]{colchero2016emergence}
+Colchero, F., R.~Rau, O.~R. Jones, J.~A. Barthold, D.~A. Conde, A.~Lenart,
+  L.~N{\'e}meth, A.~Scheuerlein, J.~Schoeley, C.~Torres, ..., S.~C. Alberts,
+  and J.~W. Vaupel (2016).
+\newblock The emergence of longevous populations.
+\newblock {\em Proceedings of the National Academy of Sciences\/}~{\em
+  113\/}(48), E7681--E7690.
+
+\bibitem[\protect\citeauthoryear{Currie, Durban, and Eilers}{Currie
+  et~al.}{2004}]{currie2004smoothing}
+Currie, I.~D., M.~Durban, and P.~H. Eilers (2004).
+\newblock Smoothing and forecasting mortality rates.
+\newblock {\em Statistical modelling\/}~{\em 4\/}(4), 279--298.
+
+\bibitem[\protect\citeauthoryear{Hruschka and Burger}{Hruschka and
+  Burger}{2016}]{hruschka2016does}
+Hruschka, D.~J. and O.~Burger (2016).
+\newblock How does variance in fertility change over the demographic
+  transition?
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological
+  Sciences\/}~{\em 371\/}(1692), 20150155.
+
+\bibitem[\protect\citeauthoryear{Hyndman and Booth}{Hyndman and
+  Booth}{2008}]{hyndman2008stochastic}
+Hyndman, R.~J. and H.~Booth (2008).
+\newblock Stochastic population forecasts using functional data models for
+  mortality, fertility and migration.
+\newblock {\em International Journal of Forecasting\/}~{\em 24\/}(3), 323--342.
+
+\bibitem[\protect\citeauthoryear{Nocedal and Wright}{Nocedal and
+  Wright}{2006}]{nocedal2006sequential}
+Nocedal, J. and S.~J. Wright (2006).
+\newblock Sequential quadratic programming.
+\newblock In {\em Numerical optimization}, pp.\  529--562. Springer.
+
+\bibitem[\protect\citeauthoryear{Pascariu, Canudas-Romo, and Vaupel}{Pascariu
+  et~al.}{2018}]{pascariu2018double}
+Pascariu, M.~D., V.~Canudas-Romo, and J.~W. Vaupel (2018).
+\newblock The double-gap life expectancy forecasting model.
+\newblock {\em Insurance: Mathematics and Economics\/}~{\em 78}, 339--350.
+
+\bibitem[\protect\citeauthoryear{Peristera and Kostaki}{Peristera and
+  Kostaki}{2007}]{peristera2007modeling}
+Peristera, P. and A.~Kostaki (2007).
+\newblock Modeling fertility in modern populations.
+\newblock {\em Demographic Research\/}~{\em 16}, 141--194.
+
+\bibitem[\protect\citeauthoryear{Raftery, Chunn, Gerland, and
+  {\v{S}}ev{\v{c}}{\'i}kov{\'a}}{Raftery et~al.}{2013}]{Raftery2013}
+Raftery, A.~E., J.~L. Chunn, P.~Gerland, and H.~{\v{S}}ev{\v{c}}{\'i}kov{\'a}
+  (2013, Jun).
+\newblock Bayesian probabilistic projections of life expectancy for all
+  countries.
+\newblock {\em Demography\/}~{\em 50\/}(3), 777--801.
+
+\bibitem[\protect\citeauthoryear{Raftery, Lalic, and Gerland}{Raftery
+  et~al.}{2014}]{raftery2014joint}
+Raftery, A.~E., N.~Lalic, and P.~Gerland (2014).
+\newblock Joint probabilistic projection of female and male life expectancy.
+\newblock {\em Demographic research\/}~{\em 30}, 795.
+
+\bibitem[\protect\citeauthoryear{Schmertmann}{Schmertmann}{2003}]{schmertmann2003system}
+Schmertmann, C. (2003).
+\newblock A system of model fertility schedules with graphically intuitive
+  parameters.
+\newblock {\em Demographic research\/}~{\em 9}, 81--110.
+
+\bibitem[\protect\citeauthoryear{{\v{S}}ev{\v{c}}{\'\i}kov{\'a}, Li,
+  Kantorov{\'a}, Gerland, and Raftery}{{\v{S}}ev{\v{c}}{\'\i}kov{\'a}
+  et~al.}{2016}]{vsevvcikova2016age}
+{\v{S}}ev{\v{c}}{\'\i}kov{\'a}, H., N.~Li, V.~Kantorov{\'a}, P.~Gerland, and
+  A.~E. Raftery (2016).
+\newblock Age-specific mortality and fertility rates for probabilistic
+  population projections.
+\newblock In {\em Dynamic demographic analysis}, pp.\  285--310. Springer.
+
+\bibitem[\protect\citeauthoryear{Smits and Monden}{Smits and
+  Monden}{2009}]{Smits2009}
+Smits, J. and C.~Monden (2009).
+\newblock Length of life inequality around the globe.
+\newblock {\em Social Science \& Medicine\/}~{\em 68\/}(6), 1114--1123.
+
+\bibitem[\protect\citeauthoryear{Torri and Vaupel}{Torri and
+  Vaupel}{2012}]{torri2012forecasting}
+Torri, T. and J.~W. Vaupel (2012).
+\newblock Forecasting life expectancy in an international context.
+\newblock {\em International Journal of Forecasting\/}~{\em 28\/}(2), 519--531.
+
+\bibitem[\protect\citeauthoryear{{United Nations}}{{United
+  Nations}}{2017}]{UN2017}
+{United Nations} (2017).
+\newblock {\em World population prospects: the 2017 revision}.
+\newblock United Nations.
+
+\bibitem[\protect\citeauthoryear{van Raalte, Sasson, and Martikainen}{van
+  Raalte et~al.}{2018}]{van2018case}
+van Raalte, A.~A., I.~Sasson, and P.~Martikainen (2018).
+\newblock The case for monitoring life-span inequality.
+\newblock {\em Science\/}~{\em 362\/}(6418), 1002--1004.
+
+\bibitem[\protect\citeauthoryear{Vaupel, Zhang, and van Raalte}{Vaupel
+  et~al.}{2011}]{Vaupel2011}
+Vaupel, J.~W., Z.~Zhang, and A.~A. van Raalte (2011).
+\newblock Life expectancy and disparity: An international comparison of life
+  table data.
+\newblock {\em BMJ Open\/}~{\em 1\/}(1), bmjopen--2011--000128.
+
+\bibitem[\protect\citeauthoryear{White}{White}{2002}]{White200259}
+White, K. (2002).
+\newblock Longevity advances in high-income countries, 1955-96.
+\newblock {\em Population and Development Review\/}~{\em 28\/}(1), 59--76.
+\newblock cited By 75.
+
+\end{thebibliography}

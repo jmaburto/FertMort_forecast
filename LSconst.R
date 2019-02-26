@@ -1,6 +1,11 @@
 rm(list = ls())
 options(device="X11")
 
+if (me == "sam\\jmaburto"){
+  setwd("C:/Users/jmaburto/Documents/GitHub/FertMort_forecast")
+}
+
+
 x <- 1:4
 X <- cbind(1, x)
 y <- c(6,5,7,10)
