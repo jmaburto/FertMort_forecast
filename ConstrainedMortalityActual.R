@@ -1,19 +1,28 @@
 rm(list = ls())
 options(device="X11")
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
 library(quadprog)
 library(rgl)
 library(MortalitySmooth)
 library(HMDdata)
+library(HMDHFDplus)
 library(vars)
 library(forecast)
+library(pash)
+
+me <- system("whoami",intern=TRUE)
+if (me == "sam\\jmaburto"){
+  setwd("C:/Users/jmaburto/Documents/GitHub/FertMort_forecast")
+}
 
 cou <- "Japan"
 sex <- "F"
 ages <- 1:105
 m <- length(ages)
-years1 <- 1960:2016
+years1 <- 1960:2009
 n1 <- length(years1)
+
 Y1 <- matrix(selectHMDdata(cou, "Deaths", sex, ages, years1), m, n1)
 E1 <- matrix(selectHMDdata(cou, "Exposures", sex, ages, years1), m, n1)
 MX1 <- Y1/E1
@@ -40,6 +49,32 @@ nF <- length(tF)
 yearsF <- years[-c(1:n1)]
 ## observed e0
 e01 <- apply(MX1, 2, function(mx) sum(exp(-cumsum(mx)))+0.5)
+
+##Trying some variation indicators
+## Gini coefficient
+jap <- Inputnmx(x = ages,nmx = MX1[,1],last_open = T)
+GetShape(jap,harmonized = F)[2]
+
+Gini.fromPASH <-  apply(MX1, 2, function(mx,ages = ages){
+             jap <- Inputnmx(x = ages,nmx = mx,last_open = T)
+             GetShape(jap,harmonized = F)[2]
+}, ages = ages)
+
+Gini          <-  apply(MX1, 2, function(mx) 1 - sum(exp(-cumsum(mx))^2)/(sum(exp(-cumsum(mx))))-.0006)
+
+## e-dagger
+jap <- Inputnmx(x = ages,nmx = MX1[,1],last_open = T)
+GetShape(jap,harmonized = F)[1]*GetPace(jap)[1]
+
+edagger.fromPASH <-  apply(MX1, 2, function(mx,ages = ages){
+  jap <- Inputnmx(x = ages,nmx = mx,last_open = T)
+  GetShape(jap,harmonized = F)[1]*GetPace(jap)[1]
+}, ages = ages)
+
+edagger <-  apply(MX1, 2, function(mx)  - sum(exp(-cumsum(mx))*(-cumsum(mx))))
+
+
+
 
 # MX1vec <- c(MX1)
 # In <- diag(n1)
