@@ -12,7 +12,7 @@ cou <- "Japan"
 sex <- "F"
 ages <- 1:105
 m <- length(ages)
-years1 <- 1960:2016
+years1 <- 1960:2009
 n1 <- length(years1)
 Y1 <- matrix(selectHMDdata(cou, "Deaths", sex, ages, years1), m, n1)
 E1 <- matrix(selectHMDdata(cou, "Exposures", sex, ages, years1), m, n1)
