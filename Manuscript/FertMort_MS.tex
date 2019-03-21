@@ -80,7 +80,8 @@
 \clearpage
 
 \section{Introduction}
-Future levels of mortality and fertility can be predicted by modelling and extrapolating rates over age and time, or by forecasting summary measures of each phenomena and then converted in age-specific rates. For example, in developed countries, the linear increase in life expectancy over some periods has made it easier to fit trends over time of this summary indicator than fitting more complex models based on age-specific dynamics of mortality \citep{White200259}. Therefore, several methods have been proposed to forecast life expectancy. For instance, \citet{torri2012forecasting} forecast life expectancy for a given country assuming a tendency towards a predicted best practice life expectancy. \citet{pascariu2018double} proposed incorporating the analysis of the gap between female and male life expectancy to more accurately predict the overall level of mortality in a country. Similarly, \citet{Raftery2013} forecast life expectancy for several countries using a Bayesian hierarchical model for females, and then model the sex gap to estimate male life expectancy \citep{raftery2014joint}. Subsequently, the overall level of mortality given by life expectancy is converted to a age-specific profile \citep{vsevvcikova2016age}. This latter method has been adopted by the United Nations. However, life expectancy, as an average, conceals the variation in the death distribution \citep{van2018case}. Recently, \citet{bohk2017lifespan} proposed to incorporate the variation in ages at death as an additional indicator to evaluate mortality forecast. They found that some methods struggle to account for trends in lifespan variation, which results in a mismatch between life expectancy and lifespan variation. In most developed countries, life expectancy and lifespan variation are often negatively correlated \citep{Smits2009,Vaupel2011,colchero2016emergence}, however in some countries this association is less strong, such as Eastern European which might lead to different levels of lifespan variation given a value of life expectancy when forecasted \citep{Aburto2018Eastern}. Therefore, incorporating the dynamics of both life expectancy and lifespan variation to obtain an age-specific mortality profile that matches both is a step forward on more accurately predicting future longevity.
+Future levels of mortality and fertility can be predicted by modelling and extrapolating rates over age and time, or by forecasting summary measures of each phenomena and then converted in age-specific rates. For example, in developed countries, the linear increase in life expectancy over some periods has made it easier to fit trends over time of this summary indicator than fitting more complex models based on age-specific dynamics of mortality \citep{White200259}. Therefore, several methods have been proposed to forecast life expectancy. For instance, \citet{torri2012forecasting} forecast life expectancy for a given country assuming a tendency towards a predicted best practice life expectancy. \citet{pascariu2018double} proposed incorporating the analysis of the gap between female and male life expectancy to more accurately predict the overall level of mortality in a country. Similarly, \citet{Raftery2013} forecast life expectancy for several countries using a Bayesian hierarchical model for females, and then model the sex gap to estimate male life expectancy \citep{raftery2014joint}. Subsequently, the overall level of mortality given by life expectancy is converted to a age-specific profile \citep{vsevvcikova2016age}. This latter method has been adopted by the United Nations. However, life expectancy, as an average, conceals the variation in the death distribution \citep{van2018case}. Recently, \citet{bohk2017lifespan} proposed to incorporate the variation in ages at death as an additional indicator to evaluate mortality forecast. This variation is often called lifespan variation or lifespan inequality and refers to how similar ages at death are in a population.
+They found that some methods struggle to account for trends in lifespan variation, which results in a mismatch between life expectancy and lifespan variation. In most developed countries, life expectancy and lifespan variation are often negatively correlated \citep{Smits2009,Vaupel2011,colchero2016emergence}, however in some countries this association is less strong, such as Eastern European which might lead to different levels of lifespan variation given a value of life expectancy when forecasted \citep{Aburto2018Eastern}. Therefore, incorporating the dynamics of both life expectancy and lifespan variation to obtain an age-specific mortality profile that matches both is a step forward on more accurately predicting future longevity.
 
 In fertility studies, forecasts usually predict the average number of children that will be born by women over their reproductive lifetime \citep{bohk2018forecast}. Recently, \citet{bohk2018forecast} compared the performance of 20 major methods, including parametric curve fitting methods, extrapolation, Bayesian approaches and context-specific methods, aimed at completing lifetime fertility of women that have not yet reached their last reproductive age. The authors found that more complex methods do not necessarily outperform simpler methods. As in the case of mortality, some of these methodologies rely on modelling age-specific fertility rates (e.g. \citet{coale1974model,chandola1999recent,schmertmann2003system,peristera2007modeling,hyndman2008stochastic}). Others, rely on probabilistic projections of the total fertility rate (TFR). For example, \citet{alkema2011probabilistic} developed a methodology to forecast TFR for all countries using a Bayesian projection model. From these estimates, the age-specific profile can be derived \citep{vsevvcikova2016age}. However, important information in other summary measures such as variance of childbearing age is often ignored \citep{hruschka2016does}.
 
@@ -89,13 +90,18 @@ In this article, we propose a model to obtain future mortality and fertility age
 
 \section{Model on Japanese mortality data}
 
-For ease of presentation, we formulate the model on mortality data. We suppose that we have deaths, and exposures to risk, arranged in two matrices, 
-$\bm{Y} = (y_{ij})$ and $\bm{E} = (e_{ij})$, each $m \times n_{1}$, whose rows and columns are classified by age at death, $\bm{a}, \,m \times 1$, and year of death, $\bm{t}_{1}, \,n_{1} \times 1$, respectively.  
-We assume that the number of deaths $y_{ij}$ at age $i$ in year $j$ is Poisson distributed with mean $\mu_{ij} \,e_{ij}$. %The value of $\mu_{ij}$ is commonly named force of mortality. 
-Forecasting aims to reconstruct trends in $\mu_{ij}$ for $n_{2}$ future years, $\bm{y}_{2}, n_{2} \times 1$.
+For ease of presentation, we formulate the model on mortality data. Suppose that we have deaths, and exposures to risk, arranged in two matrices, 
+$\bm{Y} = (y_{ij})$ and $\bm{E} = (e_{ij})$, both with dimension $m \times n_{1}$.  Rows and columns are classified by age at death, $\bm{a}, \,m \times 1$, and year of death, $\bm{t}_{1}, \,n_{1} \times 1$, respectively.  
+We assume that the number of deaths $y_{ij}$ at age $i$ in year $j$ is Poisson distributed with mean $\mu_{ij} \,e_{ij}$, where $\mu_{ij}$ is the force of mortality. 
+The aim of our model is to reconstruct trends in $\mu_{ij}$ for  $n_{2}$ future years, $\bm{y}_{2}, n_{2} \times 1$ [\textit{This sentence is not completely clear to me}].
 
-Usually demographers and actuaries summarize mortality age-patterns by computing life expectancies. Time-trends of this summary measure are often regular and well-understood. Forecasting a single time-series is therefore relatively easy. Figure~\ref{fig:CamardaMort} (left panel) presents observed life expectancy at age 1 for Japanese females from 1960 to 2016 along with the medium variant up to 2050 as computed by the UN, which consider available data for all countries in the world.  
-Future mortality patterns, both by age and over time, must adhere to this predicted trend. 
+\subsection{Life expectancy}
+
+Demographers and actuaries often summarize mortality age-patterns with life expectancy. Life expectancy at birth is the average years a newborn is expected to live given the current mortality rates. In lifetable notation, life expectancy at birth is defined as
+\begin{equation*}\label{eq:ex}
+e(0)=\int_0^\infty\ell(x)\,dx,
+\end{equation*}
+where $\ell(x)$ is survival function. Time-trends of this summary measure are often regular and well-understood. Forecasting a single time-series is therefore relatively easy. Figure~\ref{fig:CamardaMort} (left panel) presents observed life expectancy at age 1 for Japanese females from 1960 to 2016 along with the medium variant up to 2050 as computed by the UN. This variant is calculated considering available data for all countries in the world.  The aim of our model is to reconstruct age-specific future mortality patterns that are consistent with this predicted trend.
 
 \begin{figure}[!ht]\centering
 	\includegraphics[scale=0.25]{Figures/CamardaE0.pdf}
@@ -118,7 +124,7 @@ can be estimated by a penalised version of the iteratively reweighted least squa
 \end{equation} 	
 where a difference penalty $\bm{P}$ enforces smoothness behaviour of mortality both over age and time. Outcomes from this approach in terms of life expectancy is depicted with a dashed red line in Figure~\ref{fig:CamardaMort} (left panel), and a departure from the UN projected values is evident. 
 
-Life expectancy is a nonlinear function of the coefficients vector $\bm{\alpha}$:
+Note that life expectancy is a nonlinear function of the coefficients vector $\bm{\alpha}$:
 \begin{equation}\label{eq:e0}
 \bm{e}^{0} (\bm{\alpha}) = (\bm{1}_{1 \times m} \otimes \bm{I}_{n}) \, \exp[ (\bm{I}_{n} \otimes \bm{C}) \verb"vec"(\exp(\bm{B}\bm{\alpha}))]  + 0.5 
 \end{equation} 
@@ -132,7 +138,7 @@ where $\bm{C}$ is a $(m \times m)$ lower triangular matrix filled only with -1.
 %\end{array}\right] \, .
 %\end{equation}  
 
-Constrained nonlinear optimization is therefore necessary and a SQP approach is implemented. Let denote with $\bm{e}^{0}_{\mathrm{T}}$ the $n_{2}$-vector of target life expectancy for future years and with $\bm{N}$ the $(k_{a}n_{2} \times n_{2})$ matrix with derivatives of~\eqref{eq:e0} with respect to $\bm{\alpha}$ for each future year. The solution of the associated system of equations at the step $\nu + 1$ is given by
+Constrained nonlinear optimization is therefore necessary and a SQP [\textit{we need to explain more on SQP, perhaps a new subsection}] approach is implemented. Let denote with $\bm{e}^{0}_{\mathrm{T}}$ the $n_{2}$-vector of target life expectancy for future years and with $\bm{N}$ the $(k_{a}n_{2} \times n_{2})$ matrix with derivatives of~\eqref{eq:e0} with respect to $\bm{\alpha}$ for each future year. The solution of the associated system of equations at the step $\nu + 1$ is given by
 \begin{equation}\label{eq:SQLalg}
 \left[ \begin{array}{l}
 \bm{\alpha}_{\nu+1}\\
@@ -151,6 +157,17 @@ where $\bm{L}$ and $\bm{r}$ are left- and right-hand-side of the system in~\eqre
 
 Forecast $e^{0}$ by the proposed method is exactly equal to the UN values (Figure~\ref{fig:CamardaMort}, left panel). The right panel of Figure~\ref{fig:CamardaMort} shows the forecast mortality age-pattern in 2050: Shape obtained by the suggest approach is not a simple linear function of the plain $P$-splines outcome.
 
+\subsection*{Lifespan variation}
+
+Lifespan variation can be measured with multiple indicators \citep{vanRaalte2013}. These indicators are highly correlated when they measure variation over the full age range, i.e. starting from age 0 \citep{colchero2016emergence}. Here we measure lifespan variation with two indicators: 1) Years of life lost and 2) the Gini coefficient of the life table. 
+
+Years of life lost, denoted with $e^\dagger$, is defined as the average remaining life expectancy when death occurs \citep{Vaupel2003,Vaupel2011}. It is an indicator of absolute variation in lifespans. For example, when death is highly variable, some people will die well before their expected age at death, contributing many lost years to life disparity. When survival is highly concentrated around older ages, the difference between the age at death and the expected remaining years decreases, and life disparity decreases. In life table notation $e^\dagger$ is given by \citep{Goldman1986,Vaupel2003}
+\begin{equation*}
+e^\dagger = -\int_0^\infty\, \ell(x)\,\ln{\ell(x)}\, dx \,=\, \int_0^\infty\, e(x)\,d(x)\, dx,
+\end{equation*}
+where $e(x)$ is life expectancy at age $x$, and $d(x)$ is the age-at-death distribution.
+
+The Gini coefficient is an indicator of relative variation. 
 \section{Spanish Fertility Data}
 
 We forecast Spanish fertility using three commonly-used summary measures: Total Fertility Rate, mean and variance of childbearing age, forecast by conventional time-series analysis. We then smooth and constrain future fertility age-patterns to comply these forecast values. Summary measures as well as fertility rates in 2050 are presented in Figure~\ref{fig:CamardaFert}. 
