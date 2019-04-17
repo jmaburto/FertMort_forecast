@@ -167,7 +167,17 @@ e^\dagger = -\int_0^\infty\, \ell(x)\,\ln{\ell(x)}\, dx \,=\, \int_0^\infty\, e(
 \end{equation*}
 where $e(x)$ is life expectancy at age $x$, and $d(x)$ is the age-at-death distribution.
 
-The Gini coefficient is an indicator of relative variation. 
+The Gini coefficient is an indicator of relative variation. It was originally proposed in Economics to measure income or wealth inequality and  has been adopted in demography and survival analysis to measure lifespan variation \citep{Hanada1983,Shkolnikov2003,bonetti2009gini,gigliarano2017longevity}
+There exist several alternative and equivalent ways to define the Gini coefficient \citep{yitzhaki2013gini}. For our purposes and the remainder of this article, we will use the following formulation in terms of life table notation \citep{michettid1957,Hanada1983}:
+%
+\begin{equation}
+  \label{Gini_definition}
+  G = 1-\frac{\int_0^\infty\ell(x)^2\,dx}{\int_0^\infty\ell(x)\,dx},
+\end{equation}
+%
+where $\ell(x,t)$ is the survival function and $\int_0^\infty \ell(x)^2\,dx$ is the resulting life expectancy at birth of doubling the hazard at all ages. The Gini coefficient takes values between 0 and 1. A coefficient equal to 0 corresponds to the case of perfect equality in ages at death. The Gini index increases as lifespans become more spread and unequal in the population, reaching a value of 1 in the case of perfect inequality.
+
+
 \section{Spanish Fertility Data}
 
 We forecast Spanish fertility using three commonly-used summary measures: Total Fertility Rate, mean and variance of childbearing age, forecast by conventional time-series analysis. We then smooth and constrain future fertility age-patterns to comply these forecast values. Summary measures as well as fertility rates in 2050 are presented in Figure~\ref{fig:CamardaFert}. 

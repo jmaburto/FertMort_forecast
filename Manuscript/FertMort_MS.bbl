@@ -30,6 +30,12 @@ Bohk-Ewald, C., P.~Li, and M.~Myrskyl{\"a} (2018).
 \newblock {\em Proceedings of the National Academy of Sciences\/}~{\em
   115\/}(37), 9187--9192.
 
+\bibitem[\protect\citeauthoryear{Bonetti, Gigliarano, and Muliere}{Bonetti
+  et~al.}{2009}]{bonetti2009gini}
+Bonetti, M., C.~Gigliarano, and P.~Muliere (2009).
+\newblock The gini concentration test for survival data.
+\newblock {\em Lifetime Data Analysis\/}~{\em 15\/}(4), 493--518.
+
 \bibitem[\protect\citeauthoryear{Chandola, Coleman, and Hiorns}{Chandola
   et~al.}{1999}]{chandola1999recent}
 Chandola, T., D.~A. Coleman, and R.~W. Hiorns (1999).
@@ -60,11 +66,25 @@ Currie, I.~D., M.~Durban, and P.~H. Eilers (2004).
 \newblock Smoothing and forecasting mortality rates.
 \newblock {\em Statistical modelling\/}~{\em 4\/}(4), 279--298.
 
+\bibitem[\protect\citeauthoryear{Gigliarano, Basellini, and Bonetti}{Gigliarano
+  et~al.}{2017}]{gigliarano2017longevity}
+Gigliarano, C., U.~Basellini, and M.~Bonetti (2017).
+\newblock Longevity and concentration in survival times: The log-scale-location
+  family of failure time models.
+\newblock {\em Lifetime Data Analysis\/}~{\em 23\/}(2), 254--274.
+
 \bibitem[\protect\citeauthoryear{Goldman and Lord}{Goldman and
   Lord}{1986}]{Goldman1986}
 Goldman, N. and G.~Lord (1986).
 \newblock A new look at entropy and the life table.
 \newblock {\em Demography\/}~{\em 23\/}(2), 275--282.
+
+\bibitem[\protect\citeauthoryear{Hanada}{Hanada}{1983}]{Hanada1983}
+Hanada, K. (1983).
+\newblock A formula of gini's concentration ratio and its application to life
+  tables.
+\newblock {\em Journal of Japanese Statistical Society\/}~{\em 13\/}(2),
+  95--98.
 
 \bibitem[\protect\citeauthoryear{Hruschka and Burger}{Hruschka and
   Burger}{2016}]{hruschka2016does}
@@ -80,6 +100,12 @@ Hyndman, R.~J. and H.~Booth (2008).
 \newblock Stochastic population forecasts using functional data models for
   mortality, fertility and migration.
 \newblock {\em International Journal of Forecasting\/}~{\em 24\/}(3), 323--342.
+
+\bibitem[\protect\citeauthoryear{Michetti and Dall'Aglio}{Michetti and
+  Dall'Aglio}{1957}]{michettid1957}
+Michetti, B. and G.~Dall'Aglio (1957).
+\newblock La differenza semplice media.
+\newblock {\em Statistica\/}~{\em 7\/}(2), 159--255.
 
 \bibitem[\protect\citeauthoryear{Nocedal and Wright}{Nocedal and
   Wright}{2006}]{nocedal2006sequential}
@@ -127,6 +153,13 @@ Schmertmann, C. (2003).
 \newblock Age-specific mortality and fertility rates for probabilistic
   population projections.
 \newblock In {\em Dynamic demographic analysis}, pp.\  285--310. Springer.
+
+\bibitem[\protect\citeauthoryear{Shkolnikov, Andreev, and Begun}{Shkolnikov
+  et~al.}{2003}]{Shkolnikov2003}
+Shkolnikov, V.~M., E.~E. Andreev, and A.~Z. Begun (2003).
+\newblock Gini coefficient as a life table function: Computation from discrete
+  data, decomposition of differences and empirical examples.
+\newblock {\em Demographic Research\/}~{\em 8\/}(11), 305--358.
 
 \bibitem[\protect\citeauthoryear{Smits and Monden}{Smits and
   Monden}{2009}]{Smits2009}
@@ -177,5 +210,11 @@ White, K. (2002).
 \newblock Longevity advances in high-income countries, 1955-96.
 \newblock {\em Population and Development Review\/}~{\em 28\/}(1), 59--76.
 \newblock cited By 75.
+
+\bibitem[\protect\citeauthoryear{Yitzhaki and Schechtman}{Yitzhaki and
+  Schechtman}{2013}]{yitzhaki2013gini}
+Yitzhaki, S. and E.~Schechtman (2013).
+\newblock {\em The Gini Methodology}.
+\newblock Springer New York.
 
 \end{thebibliography}
