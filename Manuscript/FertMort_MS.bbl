@@ -1,11 +1,25 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Aburto and Beltr{\'a}n-S{\'a}nchez}{Aburto and
+  Beltr{\'a}n-S{\'a}nchez}{2019}]{aburto2019upsurge}
+Aburto, J.~M. and H.~Beltr{\'a}n-S{\'a}nchez (2019).
+\newblock Upsurge of homicides and its impact on life expectancy and life span
+  inequality in mexico, 2005--2015.
+\newblock {\em American journal of public health\/}~{\em 109\/}(3), 483--489.
+
 \bibitem[\protect\citeauthoryear{Aburto and van Raalte}{Aburto and van
   Raalte}{2018}]{Aburto2018Eastern}
 Aburto, J.~M. and A.~A. van Raalte (2018).
 \newblock Lifespan dispersion in times of life expectancy fluctuation: The case
   of {C}entral and {E}astern {E}urope.
 \newblock {\em Demography\/}~{\em 55\/}(6), 2071--2096.
+
+\bibitem[\protect\citeauthoryear{Aburto, Villavicencio, Basellini,
+  Kj{\ae}rgaard, and Vaupel}{Aburto et~al.}{2019}]{aburtoDynamics2019}
+Aburto, J.~M., F.~Villavicencio, U.~Basellini, S.~Kj{\ae}rgaard, and J.~W.
+  Vaupel (2019).
+\newblock Dynamics of life expectancy and lifespan equality.
+\newblock Working paper presented at PAA 2019 (available from authors).
 
 \bibitem[\protect\citeauthoryear{Alkema, Raftery, Gerland, Clark, Pelletier,
   Buettner, and Heilig}{Alkema et~al.}{2011}]{alkema2011probabilistic}
@@ -14,6 +28,13 @@ Alkema, L., A.~E. Raftery, P.~Gerland, S.~J. Clark, F.~Pelletier, T.~Buettner,
 \newblock Probabilistic projections of the total fertility rate for all
   countries.
 \newblock {\em Demography\/}~{\em 48\/}(3), 815--839.
+
+\bibitem[\protect\citeauthoryear{Alvarez, Aburto, and Canudas-Romo}{Alvarez
+  et~al.}{2019}]{alvarez2019latin}
+Alvarez, J.-A., J.~M. Aburto, and V.~Canudas-Romo (2019).
+\newblock Latin american convergence and divergence towards the mortality
+  profiles of developed countries.
+\newblock {\em Population studies\/}, 1--18.
 
 \bibitem[\protect\citeauthoryear{Bohk-Ewald, Ebeling, and Rau}{Bohk-Ewald
   et~al.}{2017}]{bohk2017lifespan}
@@ -35,6 +56,11 @@ Bohk-Ewald, C., P.~Li, and M.~Myrskyl{\"a} (2018).
 Bonetti, M., C.~Gigliarano, and P.~Muliere (2009).
 \newblock The gini concentration test for survival data.
 \newblock {\em Lifetime Data Analysis\/}~{\em 15\/}(4), 493--518.
+
+\bibitem[\protect\citeauthoryear{Booth}{Booth}{2006}]{Booth2006}
+Booth, H. (2006).
+\newblock Demographic forecasting: 1980 to 2005 in review.
+\newblock {\em International Journal of Forecasting\/}~{\em 22\/}(3), 547--581.
 
 \bibitem[\protect\citeauthoryear{Chandola, Coleman, and Hiorns}{Chandola
   et~al.}{1999}]{chandola1999recent}
@@ -66,6 +92,13 @@ Currie, I.~D., M.~Durban, and P.~H. Eilers (2004).
 \newblock Smoothing and forecasting mortality rates.
 \newblock {\em Statistical modelling\/}~{\em 4\/}(4), 279--298.
 
+\bibitem[\protect\citeauthoryear{Garc{\'\i}a and Aburto}{Garc{\'\i}a and
+  Aburto}{2019}]{garcia2019impact}
+Garc{\'\i}a, J. and J.~M. Aburto (2019).
+\newblock The impact of violence on venezuelan life expectancy and lifespan
+  inequality.
+\newblock {\em International journal of epidemiology\/}.
+
 \bibitem[\protect\citeauthoryear{Gigliarano, Basellini, and Bonetti}{Gigliarano
   et~al.}{2017}]{gigliarano2017longevity}
 Gigliarano, C., U.~Basellini, and M.~Bonetti (2017).
@@ -78,6 +111,13 @@ Gigliarano, C., U.~Basellini, and M.~Bonetti (2017).
 Goldman, N. and G.~Lord (1986).
 \newblock A new look at entropy and the life table.
 \newblock {\em Demography\/}~{\em 23\/}(2), 275--282.
+
+\bibitem[\protect\citeauthoryear{Gonzaga, Queiroz, and De~Lima}{Gonzaga
+  et~al.}{2018}]{gonzaga2018compression}
+Gonzaga, M.~R., B.~L. Queiroz, and E.~E.~C. De~Lima (2018).
+\newblock Compression of mortality: the evolution in the variability in the age
+  of death in latin america.
+\newblock {\em Revista Latinoamericana de Poblaci{\'o}n\/}~(23), 9--35.
 
 \bibitem[\protect\citeauthoryear{Hanada}{Hanada}{1983}]{Hanada1983}
 Hanada, K. (1983).
@@ -101,11 +141,24 @@ Hyndman, R.~J. and H.~Booth (2008).
   mortality, fertility and migration.
 \newblock {\em International Journal of Forecasting\/}~{\em 24\/}(3), 323--342.
 
+\bibitem[\protect\citeauthoryear{Lutz, Sanderson, Scherbov, and Goujon}{Lutz
+  et~al.}{1996}]{lutz1996world}
+Lutz, W., W.~Sanderson, S.~Scherbov, and A.~Goujon (1996).
+\newblock World population scenarios for the 21st century.
+\newblock {\em The future population of the world. What can we assume today\/},
+  361--396.
+
 \bibitem[\protect\citeauthoryear{Michetti and Dall'Aglio}{Michetti and
   Dall'Aglio}{1957}]{michettid1957}
 Michetti, B. and G.~Dall'Aglio (1957).
 \newblock La differenza semplice media.
 \newblock {\em Statistica\/}~{\em 7\/}(2), 159--255.
+
+\bibitem[\protect\citeauthoryear{Miller}{Miller}{1986}]{miller1986bivariate}
+Miller, R.~B. (1986).
+\newblock A bivariate model for total fertility rate and mean age of
+  childbearing.
+\newblock {\em Insurance: Mathematics and Economics\/}~{\em 5\/}(2), 133--140.
 
 \bibitem[\protect\citeauthoryear{Nocedal and Wright}{Nocedal and
   Wright}{2006}]{nocedal2006sequential}
@@ -172,6 +225,13 @@ Smits, J. and C.~Monden (2009).
 Torri, T. and J.~W. Vaupel (2012).
 \newblock Forecasting life expectancy in an international context.
 \newblock {\em International Journal of Forecasting\/}~{\em 28\/}(2), 519--531.
+
+\bibitem[\protect\citeauthoryear{Tuljapurkar and Edwards}{Tuljapurkar and
+  Edwards}{2011}]{tuljapurkar2011variance}
+Tuljapurkar, S. and R.~D. Edwards (2011).
+\newblock Variance in death and its implications for modeling and forecasting
+  mortality.
+\newblock {\em Demographic Research\/}~{\em 24\/}(21), 497--526.
 
 \bibitem[\protect\citeauthoryear{{United Nations}}{{United
   Nations}}{2017}]{UN2017}

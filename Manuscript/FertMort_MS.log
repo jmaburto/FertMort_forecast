@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2019.4.29)  24 JUN 2019 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2019.4.29)  26 JUN 2019 14:51
 entering extended mode
 **./FertMort_MS.tex
 (FertMort_MS.tex
@@ -461,20 +461,20 @@ LaTeX Warning: Unused global option(s):
 (FertMort_MS.aux)
 \openout1 = `FertMort_MS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 (C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pd
 f.mkii
@@ -546,7 +546,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 37.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -556,9 +556,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (FertMort_MS.out) (FertMort_MS.out)
 \@outlinefile=\write3
@@ -566,12 +566,12 @@ LaTeX Info: Redefining \nameref on input line 38.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 59.
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 59.
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -583,81 +583,77 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2
 
 ]
-[3] <Figures/CamardaE0.pdf, id=102, 578.16pt x 578.16pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4] <Figures/CamardaE0.pdf, id=128, 578.16pt x 578.16pt>
 File: Figures/CamardaE0.pdf Graphic file (type pdf)
 
 <use Figures/CamardaE0.pdf>
-Package pdftex.def Info: Figures/CamardaE0.pdf used on input line 107.
+Package pdftex.def Info: Figures/CamardaE0.pdf used on input line 113.
 (pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
 
-<Figures/CamardaMort2050.pdf, id=103, 578.16pt x 578.16pt>
+<Figures/CamardaMort2050.pdf, id=129, 578.16pt x 578.16pt>
 File: Figures/CamardaMort2050.pdf Graphic file (type pdf)
 
 <use Figures/CamardaMort2050.pdf>
-Package pdftex.def Info: Figures/CamardaMort2050.pdf used on input line 108.
+Package pdftex.def Info: Figures/CamardaMort2050.pdf used on input line 114.
 (pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
- [4 <./Figures/CamardaE0.pdf> <./Figures/CamardaMort2050.pdf>] [5] [6] <Figures
-/CamardaTFR.pdf, id=172, 578.16pt x 578.16pt>
+ [5 <./Figures/CamardaE0.pdf> <./Figures/CamardaMort2050.pdf>] [6] <Figures/Cam
+ardaTFR.pdf, id=182, 578.16pt x 578.16pt>
 File: Figures/CamardaTFR.pdf Graphic file (type pdf)
 
 <use Figures/CamardaTFR.pdf>
-Package pdftex.def Info: Figures/CamardaTFR.pdf used on input line 186.
+Package pdftex.def Info: Figures/CamardaTFR.pdf used on input line 192.
 (pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
 
-<Figures/CamardaMAB.pdf, id=173, 578.16pt x 578.16pt>
+<Figures/CamardaMAB.pdf, id=183, 578.16pt x 578.16pt>
 File: Figures/CamardaMAB.pdf Graphic file (type pdf)
 
 <use Figures/CamardaMAB.pdf>
-Package pdftex.def Info: Figures/CamardaMAB.pdf used on input line 187.
+Package pdftex.def Info: Figures/CamardaMAB.pdf used on input line 193.
 (pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
 
-<Figures/CamardaVAB.pdf, id=174, 578.16pt x 578.16pt>
+<Figures/CamardaVAB.pdf, id=184, 578.16pt x 578.16pt>
 File: Figures/CamardaVAB.pdf Graphic file (type pdf)
 
 <use Figures/CamardaVAB.pdf>
-Package pdftex.def Info: Figures/CamardaVAB.pdf used on input line 188.
+Package pdftex.def Info: Figures/CamardaVAB.pdf used on input line 194.
 (pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
 
-<Figures/CamardaFert2050.pdf, id=175, 578.16pt x 578.16pt>
+<Figures/CamardaFert2050.pdf, id=185, 578.16pt x 578.16pt>
 File: Figures/CamardaFert2050.pdf Graphic file (type pdf)
 
 <use Figures/CamardaFert2050.pdf>
-Package pdftex.def Info: Figures/CamardaFert2050.pdf used on input line 189.
+Package pdftex.def Info: Figures/CamardaFert2050.pdf used on input line 195.
 (pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
- (FertMort_MS.bbl [7 <./Figures/CamardaTFR.pdf> <./Figures/CamardaMAB.pdf> <./F
-igures/CamardaVAB.pdf> <./Figures/CamardaFert2050.pdf>]
+ (FertMort_MS.bbl [7] [8 <./Figures/CamardaTFR.pdf> <./Figures/CamardaMAB.pdf> 
+<./Figures/CamardaVAB.pdf> <./Figures/CamardaFert2050.pdf>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [8] [9])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+ [9] [10])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
  (FertMort_MS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
-
-
-Package rerunfilecheck Warning: File `FertMort_MS.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `FertMort_MS.out':
-(rerunfilecheck)             Before: DE5EDECF72C244A96C900BF9E0E67258;285
-(rerunfilecheck)             After:  83B38464527E0DCA17DDC9DF757C9E75;284.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package rerunfilecheck Info: File `FertMort_MS.out' has not changed.
+(rerunfilecheck)             Checksum: 83B38464527E0DCA17DDC9DF757C9E75;284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 10579 strings out of 493328
- 157166 string characters out of 3139103
- 268677 words of memory out of 3000000
- 13861 multiletter control sequences out of 15000+200000
+ 10617 strings out of 493328
+ 158054 string characters out of 3139103
+ 269237 words of memory out of 3000000
+ 13889 multiletter control sequences out of 15000+200000
  20042 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,45p,2577b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,45p,2577b,510s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
@@ -675,9 +671,9 @@ ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on FertMort_MS.pdf (10 pages, 290573 bytes).
+Output written on FertMort_MS.pdf (11 pages, 298558 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
