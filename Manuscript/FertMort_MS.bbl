@@ -141,6 +141,20 @@ Hyndman, R.~J. and H.~Booth (2008).
   mortality, fertility and migration.
 \newblock {\em International Journal of Forecasting\/}~{\em 24\/}(3), 323--342.
 
+\bibitem[\protect\citeauthoryear{Lee}{Lee}{1993}]{lee1993modeling}
+Lee, R.~D. (1993).
+\newblock Modeling and forecasting the time series of us fertility: Age
+  distribution, range, and ultimate level.
+\newblock {\em International Journal of Forecasting\/}~{\em 9\/}(2), 187--202.
+
+\bibitem[\protect\citeauthoryear{Lee and Tuljapurkar}{Lee and
+  Tuljapurkar}{1994}]{lee1994stochastic}
+Lee, R.~D. and S.~Tuljapurkar (1994).
+\newblock Stochastic population forecasts for the united states: Beyond high,
+  medium, and low.
+\newblock {\em Journal of the American Statistical Association\/}~{\em
+  89\/}(428), 1175--1189.
+
 \bibitem[\protect\citeauthoryear{Lutz, Sanderson, Scherbov, and Goujon}{Lutz
   et~al.}{1996}]{lutz1996world}
 Lutz, W., W.~Sanderson, S.~Scherbov, and A.~Goujon (1996).
@@ -219,6 +233,14 @@ Shkolnikov, V.~M., E.~E. Andreev, and A.~Z. Begun (2003).
 Smits, J. and C.~Monden (2009).
 \newblock Length of life inequality around the globe.
 \newblock {\em Social Science \& Medicine\/}~{\em 68\/}(6), 1114--1123.
+
+\bibitem[\protect\citeauthoryear{Thompson, Bell, Long, and Miller}{Thompson
+  et~al.}{1989}]{thompson1989multivariate}
+Thompson, P.~A., W.~R. Bell, J.~F. Long, and R.~B. Miller (1989).
+\newblock Multivariate time series projections of parameterized age-specific
+  fertility rates.
+\newblock {\em Journal of the American Statistical Association\/}~{\em
+  84\/}(407), 689--699.
 
 \bibitem[\protect\citeauthoryear{Torri and Vaupel}{Torri and
   Vaupel}{2012}]{torri2012forecasting}
