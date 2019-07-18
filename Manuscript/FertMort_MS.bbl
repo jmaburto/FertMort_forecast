@@ -62,20 +62,6 @@ Booth, H. (2006).
 \newblock Demographic forecasting: 1980 to 2005 in review.
 \newblock {\em International Journal of Forecasting\/}~{\em 22\/}(3), 547--581.
 
-\bibitem[\protect\citeauthoryear{Chandola, Coleman, and Hiorns}{Chandola
-  et~al.}{1999}]{chandola1999recent}
-Chandola, T., D.~A. Coleman, and R.~W. Hiorns (1999).
-\newblock Recent european fertility patterns: Fitting curves to
-  ‘distorted’distributions.
-\newblock {\em Population Studies\/}~{\em 53\/}(3), 317--329.
-
-\bibitem[\protect\citeauthoryear{Coale and Trussell}{Coale and
-  Trussell}{1974}]{coale1974model}
-Coale, A.~J. and T.~J. Trussell (1974).
-\newblock Model fertility schedules: variations in the age structure of
-  childbearing in human populations.
-\newblock {\em Population index\/}~{\em 1\/}(1), 185--258.
-
 \bibitem[\protect\citeauthoryear{Colchero, Rau, Jones, Barthold, Conde, Lenart,
   N{\'e}meth, Scheuerlein, Schoeley, Torres, ..., Alberts, and Vaupel}{Colchero
   et~al.}{2016}]{colchero2016emergence}
@@ -106,12 +92,6 @@ Gigliarano, C., U.~Basellini, and M.~Bonetti (2017).
   family of failure time models.
 \newblock {\em Lifetime Data Analysis\/}~{\em 23\/}(2), 254--274.
 
-\bibitem[\protect\citeauthoryear{Goldman and Lord}{Goldman and
-  Lord}{1986}]{Goldman1986}
-Goldman, N. and G.~Lord (1986).
-\newblock A new look at entropy and the life table.
-\newblock {\em Demography\/}~{\em 23\/}(2), 275--282.
-
 \bibitem[\protect\citeauthoryear{Gonzaga, Queiroz, and De~Lima}{Gonzaga
   et~al.}{2018}]{gonzaga2018compression}
 Gonzaga, M.~R., B.~L. Queiroz, and E.~E.~C. De~Lima (2018).
@@ -133,13 +113,6 @@ Hruschka, D.~J. and O.~Burger (2016).
   transition?
 \newblock {\em Philosophical Transactions of the Royal Society B: Biological
   Sciences\/}~{\em 371\/}(1692), 20150155.
-
-\bibitem[\protect\citeauthoryear{Hyndman and Booth}{Hyndman and
-  Booth}{2008}]{hyndman2008stochastic}
-Hyndman, R.~J. and H.~Booth (2008).
-\newblock Stochastic population forecasts using functional data models for
-  mortality, fertility and migration.
-\newblock {\em International Journal of Forecasting\/}~{\em 24\/}(3), 323--342.
 
 \bibitem[\protect\citeauthoryear{Lee}{Lee}{1993}]{lee1993modeling}
 Lee, R.~D. (1993).
@@ -186,12 +159,6 @@ Pascariu, M.~D., V.~Canudas-Romo, and J.~W. Vaupel (2018).
 \newblock The double-gap life expectancy forecasting model.
 \newblock {\em Insurance: Mathematics and Economics\/}~{\em 78}, 339--350.
 
-\bibitem[\protect\citeauthoryear{Peristera and Kostaki}{Peristera and
-  Kostaki}{2007}]{peristera2007modeling}
-Peristera, P. and A.~Kostaki (2007).
-\newblock Modeling fertility in modern populations.
-\newblock {\em Demographic Research\/}~{\em 16}, 141--194.
-
 \bibitem[\protect\citeauthoryear{Raftery, Chunn, Gerland, and
   {\v{S}}ev{\v{c}}{\'i}kov{\'a}}{Raftery et~al.}{2013}]{Raftery2013}
 Raftery, A.~E., J.~L. Chunn, P.~Gerland, and H.~{\v{S}}ev{\v{c}}{\'i}kov{\'a}
@@ -205,12 +172,6 @@ Raftery, A.~E., J.~L. Chunn, P.~Gerland, and H.~{\v{S}}ev{\v{c}}{\'i}kov{\'a}
 Raftery, A.~E., N.~Lalic, and P.~Gerland (2014).
 \newblock Joint probabilistic projection of female and male life expectancy.
 \newblock {\em Demographic research\/}~{\em 30}, 795.
-
-\bibitem[\protect\citeauthoryear{Schmertmann}{Schmertmann}{2003}]{schmertmann2003system}
-Schmertmann, C. (2003).
-\newblock A system of model fertility schedules with graphically intuitive
-  parameters.
-\newblock {\em Demographic research\/}~{\em 9}, 81--110.
 
 \bibitem[\protect\citeauthoryear{{\v{S}}ev{\v{c}}{\'\i}kov{\'a}, Li,
   Kantorov{\'a}, Gerland, and Raftery}{{\v{S}}ev{\v{c}}{\'\i}kov{\'a}
@@ -233,6 +194,12 @@ Shkolnikov, V.~M., E.~E. Andreev, and A.~Z. Begun (2003).
 Smits, J. and C.~Monden (2009).
 \newblock Length of life inequality around the globe.
 \newblock {\em Social Science \& Medicine\/}~{\em 68\/}(6), 1114--1123.
+
+\bibitem[\protect\citeauthoryear{{The Human Fertility Database}}{{The Human
+  Fertility Database}}{2019}]{HFD}
+{The Human Fertility Database} (2019).
+\newblock Max Planck Institute for Demographic Research and Vienna Institute of
+  Demography. URL \url{https://www.humanfertility.org}.
 
 \bibitem[\protect\citeauthoryear{Thompson, Bell, Long, and Miller}{Thompson
   et~al.}{1989}]{thompson1989multivariate}
