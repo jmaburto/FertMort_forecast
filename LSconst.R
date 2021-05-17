@@ -1,3 +1,4 @@
+# ciao
 rm(list = ls())
 options(device="X11")
 
