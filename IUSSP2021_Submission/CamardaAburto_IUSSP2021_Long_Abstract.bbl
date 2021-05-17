@@ -1,0 +1,39 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Currie, Durb\'an, and Eilers}{Currie
+  et~al.}{2004}]{CurrieDurbanEilersSmoothForecast2004}
+Currie, I.~D., M.~Durb\'an, and P.~H.~C. Eilers (2004).
+\newblock {S}moothing and {F}orecasting {M}ortality {R}ates.
+\newblock {\em Statistical Modelling\/}~{\em 4}, 279--298.
+
+\bibitem[\protect\citeauthoryear{Nocedal and Wright}{Nocedal and
+  Wright}{2006}]{NocedalWright2006}
+Nocedal, J. and S.~J. Wright (2006).
+\newblock {\em Numerical Optimization}.
+\newblock Springer.
+
+\bibitem[\protect\citeauthoryear{{United Nations}}{{United
+  Nations}}{2019}]{WPP2019}
+{United Nations} (2019).
+\newblock {\em World Population Prospects 2019: Data Booklet}.
+\newblock Department of Economic and Social Affairs, Population Division.
+\newblock ST/ESA/SER.A/424.
+
+\bibitem[\protect\citeauthoryear{Vaupel and Canudas-Romo}{Vaupel and
+  Canudas-Romo}{2003}]{VaupelCRdemo2003}
+Vaupel, J.~W. and V.~Canudas-Romo (2003).
+\newblock {D}ecomposing change in life expectancy: {A} bouquet of formulas in
+  honor of {N}athan {K}eyfitz's 90th birthday.
+\newblock {\em Demography\/}~{\em 40}, 201--216.
+
+\bibitem[\protect\citeauthoryear{\v{S}ev\v{c}\'ikov\'a, Li, Kantorova, Gerland,
+  and Raftery}{\v{S}ev\v{c}\'ikov\'a et~al.}{2016}]{SecikovaEtAlRates2016}
+\v{S}ev\v{c}\'ikov\'a, H., N.~Li, V.~Kantorova, P.~Gerland, and A.~E. Raftery
+  (2016).
+\newblock {A}ge-{S}pecific {M}ortality and {F}ertility {R}ates for
+  {P}robabilistic {P}opulation {P}rojections.
+\newblock In R.~Schoen (Ed.), {\em {T}he {S}pringer series on demographic
+  methods and population analysis: {V}ol. 39. {D}ynamic demographic analysis},
+  pp.\  285--310. Springer.
+
+\end{thebibliography}
