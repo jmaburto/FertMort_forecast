@@ -66,9 +66,9 @@ colmT <- adjustcolor(colm, 0.5)
 
 ## USING HMDdata for the current version
 ## select population
-pop <- "Spain" ## alternative names(HMDdata)
+pop <- "Scotland" ## alternative names(HMDdata)
 ## select sex
-sex <- "F" ## alternative "F"
+sex <- "M" ## alternative "F"
 ## extract deaths and exposures from HMDdata
 Y1 <- matrix(selectHMDdata(pop, "Deaths", sex, ages, years1), m, n1)
 E1 <- matrix(selectHMDdata(pop, "Exposures", sex, ages, years1), m, n1)
@@ -343,8 +343,8 @@ for(i in whi) lines(ages, ETA.SI[,i], col=coln[i], lwd=4)
 legend("topleft", inset=0.1, legend=years[whi], col=coln[whi], lwd=4)
 
 
-par(mfrow=c(2,3))
-whi <- floor(seq(1,m,length=6))
+par(mfrow=c(2,5))
+whi <- floor(seq(1,m,length=10))
 ranx <- range(years)
 for(i in whi){
   rany <- range(ETA1[i,], ETA.SI[i,], finite=TRUE)
@@ -530,6 +530,7 @@ Constr.ed <-  function(BETASF){
 }
 
 
+Pr <- 10^-4*diag(nba*n+nF+nF)
 
 ONE <- matrix(0, nb1, nF)
 BETAS <- BETAS.SI
@@ -565,10 +566,10 @@ for(it in 1:10){
   bv <- -c(hx, gx)
   
   LHS <- rbind(cbind(fx2, Am),
-               cbind(t(Am), 0*diag(ncol(Am))))
+               cbind(t(Am), 0*diag(ncol(Am)))) + Pr
   RHS <- c(-fx1, bv)
   d <- solve(LHS, RHS)[1:nb]
-  D <- matrix(d, nbx, nbt)
+  D <- matrix(d, nba, nbt)
   BETAS <- BETAS + D
   cat(it, max(abs(d)), "\n")
   if(max(abs(d))<1e-4) break
@@ -576,19 +577,19 @@ for(it in 1:10){
     par(mfrow=c(1,2))
     e0.C <- apply(exp(ETA), 2, function(mx) sum(exp(-cumsum(mx)))+0.5)
     ranx <- range(t)
-    rany <- range(e01, e0.tar, e0.S)
+    rany <- range(e01, e0.tar, e0.SI)
     plot(t1, e01, xlim=ranx, ylim=rany)
     points(tF, e0.tar, pch=16, t="b", lwd=2)
-    lines(t, e0.S, col=2, lwd=2, lty=2)
+    lines(t, e0.SI, col=2, lwd=2, lty=2)
     lines(t, e0.C, col=4, lwd=3)
     abline(v=t[n1]+0.5)
     
     ed.C <- apply(exp(ETA), 2, function(mx) - sum(exp(-cumsum(mx))*(-cumsum(mx))))
     ranx <- range(t)
-    rany <- range(ed1, ed.tar, ed.S)
+    rany <- range(ed1, ed.tar, ed.SI)
     plot(t1, ed1, xlim=ranx, ylim=rany)
     points(tF, ed.tar, pch=16, t="b", lwd=2)
-    lines(t, ed.S, col=2, lwd=2, lty=2)
+    lines(t, ed.SI, col=2, lwd=2, lty=2)
     lines(t, ed.C, col=4, lwd=3)
     abline(v=t[n1]+0.5)
     par(mfrow=c(1,1))
@@ -597,6 +598,29 @@ for(it in 1:10){
 BETAS.C <- BETAS
 ETA.C <- ETA
 MU.C <- exp(ETA)
+
+
+## plotting
+rany <- range(ETA1, ETA.C, finite=TRUE)
+matplot(ages, ETA1, col=colnT, t="l", lty=3, ylim=rany,
+        xlab="ages", ylab="log-mortality")
+whi <- floor(seq(1,n,length=6))
+for(i in whi) lines(ages, ETA.C[,i], col=coln[i], lwd=4)
+legend("topleft", inset=0.1, legend=years[whi], col=coln[whi], lwd=4)
+
+
+par(mfrow=c(2,5))
+whi <- floor(seq(1,m,length=10))
+ranx <- range(years)
+for(i in whi){
+  rany <- range(ETA1[i,], ETA.C[i,], finite=TRUE)
+  plot(years, ETA.C[i,], t="l", lwd=4, col=colmT[i], main=paste(ages[i]),
+       ylim=rany, xlim=ranx,xlab="ages", ylab="log-mortality")
+  points(years1, ETA1[i,], col=colm[i], pch=16)
+  abline(v=years[n1]+0.5)
+}
+par(mfrow=c(1,1))
+
 
 
 
