@@ -334,6 +334,7 @@ BETAS.SI <- BETAS
 ETA.SI <- ETA
 MU.SI <- exp(ETA)
 
+
 ## plotting
 rany <- range(ETA1, ETA.SI, finite=TRUE)
 matplot(ages, ETA1, col=colnT, t="l", lty=3, ylim=rany,
