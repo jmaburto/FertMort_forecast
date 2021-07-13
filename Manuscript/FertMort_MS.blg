@@ -1,54 +1,50 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: FertMort_MS.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-The style file: chicago.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apa.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bib_FertMort.bib
-Warning--no number and no volume in alvarez2019latin
-Warning--no number and no volume in garcia2019impact
-Warning--page numbers missing in garcia2019impact
-Warning--no volume for gonzaga2018compression
-Warning--no number and no volume in lutz1996world
-You've used 38 entries,
-            2861 wiz_defined-function locations,
-            864 strings with 11998 characters,
-and the built_in function-call counts, 28973 in all, are:
-= -- 2392
-> -- 2322
-< -- 2
-+ -- 718
-- -- 778
-* -- 2800
-:= -- 5238
-add.period$ -- 116
-call.type$ -- 38
-change.case$ -- 296
-chr.to.int$ -- 38
-cite$ -- 43
-duplicate$ -- 697
-empty$ -- 1657
-format.name$ -- 902
-if$ -- 5384
+Warning--there's a number but no volume in gonzaga2018compression
+You've used 41 entries,
+            1940 wiz_defined-function locations,
+            746 strings with 11695 characters,
+and the built_in function-call counts, 17898 in all, are:
+= -- 1753
+> -- 761
+< -- 24
++ -- 276
+- -- 258
+* -- 1688
+:= -- 3051
+add.period$ -- 125
+call.type$ -- 41
+change.case$ -- 331
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 605
+empty$ -- 1222
+format.name$ -- 325
+if$ -- 3454
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 38
-newline$ -- 193
-num.names$ -- 380
-pop$ -- 204
+missing$ -- 41
+newline$ -- 208
+num.names$ -- 123
+pop$ -- 261
 preamble$ -- 1
-purify$ -- 527
+purify$ -- 334
 quote$ -- 0
-skip$ -- 735
+skip$ -- 461
 stack$ -- 0
-substring$ -- 1628
-swap$ -- 234
-text.length$ -- 2
+substring$ -- 1431
+swap$ -- 112
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 740
-warning$ -- 5
-while$ -- 364
+type$ -- 242
+warning$ -- 1
+while$ -- 149
 width$ -- 0
-write$ -- 500
-(There were 5 warnings)
+write$ -- 532
+(There was 1 warning)
