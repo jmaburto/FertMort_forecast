@@ -1,52 +1,54 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: FertMort_MS.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: chicago.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bib_FertMort.bib
 Warning--no number and no volume in alvarez2019latin
 Warning--no number and no volume in garcia2019impact
 Warning--page numbers missing in garcia2019impact
 Warning--no volume for gonzaga2018compression
 Warning--no number and no volume in lutz1996world
-You've used 39 entries,
+You've used 38 entries,
             2861 wiz_defined-function locations,
-            869 strings with 12115 characters,
-and the built_in function-call counts, 29733 in all, are:
-= -- 2462
-> -- 2374
+            864 strings with 11998 characters,
+and the built_in function-call counts, 28973 in all, are:
+= -- 2392
+> -- 2322
 < -- 2
-+ -- 734
-- -- 798
-* -- 2869
-:= -- 5372
-add.period$ -- 119
-call.type$ -- 39
-change.case$ -- 303
-chr.to.int$ -- 39
-cite$ -- 44
-duplicate$ -- 715
-empty$ -- 1703
-format.name$ -- 926
-if$ -- 5525
++ -- 718
+- -- 778
+* -- 2800
+:= -- 5238
+add.period$ -- 116
+call.type$ -- 38
+change.case$ -- 296
+chr.to.int$ -- 38
+cite$ -- 43
+duplicate$ -- 697
+empty$ -- 1657
+format.name$ -- 902
+if$ -- 5384
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 39
-newline$ -- 198
-num.names$ -- 390
-pop$ -- 208
+missing$ -- 38
+newline$ -- 193
+num.names$ -- 380
+pop$ -- 204
 preamble$ -- 1
-purify$ -- 540
+purify$ -- 527
 quote$ -- 0
-skip$ -- 757
+skip$ -- 735
 stack$ -- 0
-substring$ -- 1679
-swap$ -- 240
+substring$ -- 1628
+swap$ -- 234
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 760
+type$ -- 740
 warning$ -- 5
-while$ -- 376
+while$ -- 364
 width$ -- 0
-write$ -- 513
+write$ -- 500
 (There were 5 warnings)

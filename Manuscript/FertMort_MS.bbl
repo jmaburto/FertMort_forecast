@@ -228,12 +228,6 @@ Tuljapurkar, S. and R.~D. Edwards (2011).
 \newblock {\em World population prospects: the 2017 revision}.
 \newblock United Nations.
 
-\bibitem[\protect\citeauthoryear{van Raalte and Caswell}{van Raalte and
-  Caswell}{2013}]{vanRaalte2013}
-van Raalte, A.~A. and H.~Caswell (2013).
-\newblock Perturbation analysis of indices of lifespan variability.
-\newblock {\em Demography\/}~{\em 50\/}(5), 1615--1640.
-
 \bibitem[\protect\citeauthoryear{van Raalte, Sasson, and Martikainen}{van
   Raalte et~al.}{2018}]{van2018case}
 van Raalte, A.~A., I.~Sasson, and P.~Martikainen (2018).
@@ -241,7 +235,7 @@ van Raalte, A.~A., I.~Sasson, and P.~Martikainen (2018).
 \newblock {\em Science\/}~{\em 362\/}(6418), 1002--1004.
 
 \bibitem[\protect\citeauthoryear{Vaupel and Canudas-Romo}{Vaupel and
-  Canudas-Romo}{2003}]{Vaupel2003}
+  Canudas-Romo}{2003}]{VaupelCRdemo2003}
 Vaupel, J.~W. and V.~Canudas-Romo (2003).
 \newblock Decomposing change in life expectancy: A bouquet of formulas in honor
   of {N}athan {K}eyfitz's 90th birthday.
