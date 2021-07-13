@@ -1,36 +1,11 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Aburto and
-  Beltr{\'a}n-S{\'a}nchez}{2019}]{aburto2019upsurge}
-Aburto, J.~M. and Beltr{\'a}n-S{\'a}nchez, H. (2019).
-\newblock Upsurge of homicides and its impact on life expectancy and life span
-  inequality in mexico, 2005--2015.
-\newblock {\em American journal of public health}, 109(3):483--489.
-
-\bibitem[\protect\astroncite{Aburto and van Raalte}{2018}]{Aburto2018Eastern}
-Aburto, J.~M. and van Raalte, A.~A. (2018).
-\newblock Lifespan dispersion in times of life expectancy fluctuation: The case
-  of {C}entral and {E}astern {E}urope.
-\newblock {\em Demography}, 55(6):2071--2096.
-
-\bibitem[\protect\astroncite{Aburto et~al.}{2019}]{aburtoDynamics2019}
-Aburto, J.~M., Villavicencio, F., Basellini, U., Kj{\ae}rgaard, S., and Vaupel,
-  J.~W. (2019).
-\newblock Dynamics of life expectancy and lifespan equality.
-\newblock Working paper presented at PAA 2019 (available from authors).
-
 \bibitem[\protect\astroncite{Alkema et~al.}{2011}]{alkema2011probabilistic}
 Alkema, L., Raftery, A.~E., Gerland, P., Clark, S.~J., Pelletier, F., Buettner,
   T., and Heilig, G.~K. (2011).
 \newblock Probabilistic projections of the total fertility rate for all
   countries.
 \newblock {\em Demography}, 48(3):815--839.
-
-\bibitem[\protect\astroncite{Alvarez et~al.}{2019}]{alvarez2019latin}
-Alvarez, J.-A., Aburto, J.~M., and Canudas-Romo, V. (2019).
-\newblock Latin american convergence and divergence towards the mortality
-  profiles of developed countries.
-\newblock {\em Population studies}, pages 1--18.
 
 \bibitem[\protect\astroncite{Bohk-Ewald et~al.}{2017}]{bohk2017lifespan}
 Bohk-Ewald, C., Ebeling, M., and Rau, R. (2017).
@@ -55,24 +30,10 @@ Booth, H. (2006).
 \newblock Demographic forecasting: 1980 to 2005 in review.
 \newblock {\em International Journal of Forecasting}, 22(3):547--581.
 
-\bibitem[\protect\astroncite{Colchero et~al.}{2016}]{colchero2016emergence}
-Colchero, F., Rau, R., Jones, O.~R., Barthold, J.~A., Conde, D.~A., Lenart, A.,
-  N{\'e}meth, L., Scheuerlein, A., Schoeley, J., Torres, C., ..., Alberts,
-  S.~C., and Vaupel, J.~W. (2016).
-\newblock The emergence of longevous populations.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  113(48):E7681--E7690.
-
 \bibitem[\protect\astroncite{Currie et~al.}{2004}]{currie2004smoothing}
 Currie, I.~D., Durban, M., and Eilers, P.~H. (2004).
 \newblock Smoothing and forecasting mortality rates.
 \newblock {\em Statistical modelling}, 4(4):279--298.
-
-\bibitem[\protect\astroncite{Garc{\'\i}a and Aburto}{2019}]{garcia2019impact}
-Garc{\'\i}a, J. and Aburto, J.~M. (2019).
-\newblock The impact of violence on venezuelan life expectancy and lifespan
-  inequality.
-\newblock {\em International journal of epidemiology}.
 
 \bibitem[\protect\astroncite{Gerland
   et~al.}{2014}]{gerland2014WorldPopulationStabilization}
@@ -88,12 +49,6 @@ Gigliarano, C., Basellini, U., and Bonetti, M. (2017).
   family of failure time models.
 \newblock {\em Lifetime Data Analysis}, 23(2):254--274.
 
-\bibitem[\protect\astroncite{Gonzaga et~al.}{2018}]{gonzaga2018compression}
-Gonzaga, M.~R., Queiroz, B.~L., and De~Lima, E. E.~C. (2018).
-\newblock Compression of mortality: the evolution in the variability in the age
-  of death in latin america.
-\newblock {\em Revista Latinoamericana de Poblaci{\'o}n}, (23):9--35.
-
 \bibitem[\protect\astroncite{Hanada}{1983}]{Hanada1983}
 Hanada, K. (1983).
 \newblock A formula of gini's concentration ratio and its application to life
@@ -107,41 +62,16 @@ Hruschka, D.~J. and Burger, O. (2016).
 \newblock {\em Philosophical Transactions of the Royal Society B: Biological
   Sciences}, 371(1692):20150155.
 
-\bibitem[\protect\astroncite{Lee}{1993}]{lee1993modeling}
-Lee, R.~D. (1993).
-\newblock Modeling and forecasting the time series of us fertility: Age
-  distribution, range, and ultimate level.
-\newblock {\em International Journal of Forecasting}, 9(2):187--202.
-
 \bibitem[\protect\astroncite{Lee and Carter}{1992}]{lee1992modeling}
 Lee, R.~D. and Carter, L.~R. (1992).
 \newblock Modeling and forecasting us mortality.
 \newblock {\em Journal of the American statistical association},
   87(419):659--671.
 
-\bibitem[\protect\astroncite{Lee and Tuljapurkar}{1994}]{lee1994stochastic}
-Lee, R.~D. and Tuljapurkar, S. (1994).
-\newblock Stochastic population forecasts for the united states: Beyond high,
-  medium, and low.
-\newblock {\em Journal of the American Statistical Association},
-  89(428):1175--1189.
-
-\bibitem[\protect\astroncite{Lutz et~al.}{1996}]{lutz1996world}
-Lutz, W., Sanderson, W., Scherbov, S., and Goujon, A. (1996).
-\newblock World population scenarios for the 21st century.
-\newblock {\em The future population of the world. What can we assume today},
-  pages 361--396.
-
 \bibitem[\protect\astroncite{Michetti and Dall'Aglio}{1957}]{michettid1957}
 Michetti, B. and Dall'Aglio, G. (1957).
 \newblock La differenza semplice media.
 \newblock {\em Statistica}, 7(2):159--255.
-
-\bibitem[\protect\astroncite{Miller}{1986}]{miller1986bivariate}
-Miller, R.~B. (1986).
-\newblock A bivariate model for total fertility rate and mean age of
-  childbearing.
-\newblock {\em Insurance: Mathematics and Economics}, 5(2):133--140.
 
 \bibitem[\protect\astroncite{Nocedal and Wright}{2006}]{nocedal2006sequential}
 Nocedal, J. and Wright, S.~J. (2006).
@@ -159,18 +89,6 @@ Pascariu, M.~D., Canudas-Romo, V., and Vaupel, J.~W. (2018).
 \newblock The double-gap life expectancy forecasting model.
 \newblock {\em Insurance: Mathematics and Economics}, 78:339--350.
 
-\bibitem[\protect\astroncite{Raftery et~al.}{2013}]{Raftery2013}
-Raftery, A.~E., Chunn, J.~L., Gerland, P., and {\v{S}}ev{\v{c}}{\'i}kov{\'a},
-  H. (2013).
-\newblock Bayesian probabilistic projections of life expectancy for all
-  countries.
-\newblock {\em Demography}, 50(3):777--801.
-
-\bibitem[\protect\astroncite{Raftery et~al.}{2014}]{raftery2014joint}
-Raftery, A.~E., Lalic, N., and Gerland, P. (2014).
-\newblock Joint probabilistic projection of female and male life expectancy.
-\newblock {\em Demographic research}, 30:795.
-
 \bibitem[\protect\astroncite{{\v{S}}ev{\v{c}}{\'\i}kov{\'a}
   et~al.}{2016}]{vsevvcikova2016age}
 {\v{S}}ev{\v{c}}{\'\i}kov{\'a}, H., Li, N., Kantorov{\'a}, V., Gerland, P., and
@@ -185,11 +103,6 @@ Shkolnikov, V.~M., Andreev, E.~E., and Begun, A.~Z. (2003).
   data, decomposition of differences and empirical examples.
 \newblock {\em Demographic Research}, 8(11):305--358.
 
-\bibitem[\protect\astroncite{Smits and Monden}{2009}]{Smits2009}
-Smits, J. and Monden, C. (2009).
-\newblock Length of life inequality around the globe.
-\newblock {\em Social Science \& Medicine}, 68(6):1114--1123.
-
 \bibitem[\protect\astroncite{{The Human Fertility Database}}{2019}]{HFD}
 {The Human Fertility Database} (2019).
 \newblock Max Planck Institute for Demographic Research and Vienna Institute of
@@ -202,45 +115,16 @@ Thompson, P.~A., Bell, W.~R., Long, J.~F., and Miller, R.~B. (1989).
 \newblock {\em Journal of the American Statistical Association},
   84(407):689--699.
 
-\bibitem[\protect\astroncite{Torri and Vaupel}{2012}]{torri2012forecasting}
-Torri, T. and Vaupel, J.~W. (2012).
-\newblock Forecasting life expectancy in an international context.
-\newblock {\em International Journal of Forecasting}, 28(2):519--531.
-
-\bibitem[\protect\astroncite{Tuljapurkar and
-  Edwards}{2011}]{tuljapurkar2011variance}
-Tuljapurkar, S. and Edwards, R.~D. (2011).
-\newblock Variance in death and its implications for modeling and forecasting
-  mortality.
-\newblock {\em Demographic Research}, 24(21):497--526.
-
-\bibitem[\protect\astroncite{{United Nations}}{2017}]{UN2017}
-{United Nations} (2017).
-\newblock {\em World population prospects: the 2017 revision}.
+\bibitem[\protect\astroncite{{United Nations}}{2019}]{UN2019}
+{United Nations} (2019).
+\newblock {\em World population prospects: the 2019 revision}.
 \newblock United Nations.
-
-\bibitem[\protect\astroncite{van Raalte et~al.}{2018}]{van2018case}
-van Raalte, A.~A., Sasson, I., and Martikainen, P. (2018).
-\newblock The case for monitoring life-span inequality.
-\newblock {\em Science}, 362(6418):1002--1004.
 
 \bibitem[\protect\astroncite{Vaupel and Canudas-Romo}{2003}]{VaupelCRdemo2003}
 Vaupel, J.~W. and Canudas-Romo, V. (2003).
 \newblock Decomposing change in life expectancy: A bouquet of formulas in honor
   of {N}athan {K}eyfitz's 90th birthday.
 \newblock {\em Demography}, 40(2):201--216.
-
-\bibitem[\protect\astroncite{Vaupel et~al.}{2011}]{Vaupel2011}
-Vaupel, J.~W., Zhang, Z., and van Raalte, A.~A. (2011).
-\newblock Life expectancy and disparity: An international comparison of life
-  table data.
-\newblock {\em BMJ Open}, 1(1):bmjopen--2011--000128.
-
-\bibitem[\protect\astroncite{White}{2002}]{White200259}
-White, K. (2002).
-\newblock Longevity advances in high-income countries, 1955-96.
-\newblock {\em Population and Development Review}, 28(1):59--76.
-\newblock cited By 75.
 
 \bibitem[\protect\astroncite{Yitzhaki and Schechtman}{2013}]{yitzhaki2013gini}
 Yitzhaki, S. and Schechtman, E. (2013).

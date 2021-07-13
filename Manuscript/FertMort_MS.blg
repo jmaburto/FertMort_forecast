@@ -5,46 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: apa.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bib_FertMort.bib
-Warning--there's a number but no volume in gonzaga2018compression
-You've used 41 entries,
+Warning--I didn't find a database entry for "UN2017"
+You've used 22 entries,
             1940 wiz_defined-function locations,
-            746 strings with 11695 characters,
-and the built_in function-call counts, 17898 in all, are:
-= -- 1753
-> -- 761
-< -- 24
-+ -- 276
-- -- 258
-* -- 1688
-:= -- 3051
-add.period$ -- 125
-call.type$ -- 41
-change.case$ -- 331
-chr.to.int$ -- 41
-cite$ -- 42
-duplicate$ -- 605
-empty$ -- 1222
-format.name$ -- 325
-if$ -- 3454
+            632 strings with 8094 characters,
+and the built_in function-call counts, 9608 in all, are:
+= -- 934
+> -- 417
+< -- 12
++ -- 152
+- -- 142
+* -- 903
+:= -- 1642
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 178
+chr.to.int$ -- 22
+cite$ -- 22
+duplicate$ -- 330
+empty$ -- 658
+format.name$ -- 176
+if$ -- 1855
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 41
-newline$ -- 208
-num.names$ -- 123
-pop$ -- 261
+missing$ -- 23
+newline$ -- 112
+num.names$ -- 66
+pop$ -- 150
 preamble$ -- 1
-purify$ -- 334
+purify$ -- 181
 quote$ -- 0
-skip$ -- 461
+skip$ -- 247
 stack$ -- 0
-substring$ -- 1431
-swap$ -- 112
-text.length$ -- 4
+substring$ -- 740
+swap$ -- 61
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 242
-warning$ -- 1
-while$ -- 149
+type$ -- 128
+warning$ -- 0
+while$ -- 79
 width$ -- 0
-write$ -- 532
+write$ -- 285
 (There was 1 warning)

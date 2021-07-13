@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  13 JUL 2021 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  13 JUL 2021 19:02
 entering extended mode
 **./FertMort_MS.tex
 (FertMort_MS.tex
@@ -551,7 +551,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
 [1
 
 {C:/Users/jmabu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \vbox (badness 2564) has occurred while \output is active []
+Underfull \vbox (badness 1320) has occurred while \output is active []
 
 
 
@@ -564,77 +564,91 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 
-      [1]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+l.97 \section
+             {Methodology} [1]
 
- [2]
-<./Figures/Camardafig1a.pdf, id=183, 578.16pt x 578.16pt>
+Package natbib Warning: Citation `UN2017' on page 2 undefined on input line 100
+.
+
+
+Package natbib Warning: Citation `UN2017' on page 2 undefined on input line 100
+.
+
+<./Figures/Camardafig1a.pdf, id=98, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1a.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1a.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1a.pdf  used on input line 117.
+Package pdftex.def Info: ./Figures/Camardafig1a.pdf  used on input line 113.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig1b.pdf, id=184, 578.16pt x 578.16pt>
+<./Figures/Camardafig1b.pdf, id=99, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1b.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1b.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1b.pdf  used on input line 118.
+Package pdftex.def Info: ./Figures/Camardafig1b.pdf  used on input line 114.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig1c.pdf, id=185, 578.16pt x 578.16pt>
+<./Figures/Camardafig1c.pdf, id=100, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1c.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1c.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1c.pdf  used on input line 119.
+Package pdftex.def Info: ./Figures/Camardafig1c.pdf  used on input line 115.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig1d.pdf, id=186, 578.16pt x 578.16pt>
+<./Figures/Camardafig1d.pdf, id=101, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1d.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1d.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1d.pdf  used on input line 120.
+Package pdftex.def Info: ./Figures/Camardafig1d.pdf  used on input line 116.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
+[2]
+Underfull \vbox (badness 1173) has occurred while \output is active []
 
-[3] [4 <./Figures/Camardafig1a.pdf> <./Figures/Camardafig1b.pdf> <./Figures/Cam
-ardafig1c.pdf> <./Figures/Camardafig1d.pdf>]
-<./Figures/Camardafig2a.pdf, id=248, 578.16pt x 578.16pt>
+ [3 <./Figures/Camardafig1a.pdf> <./Figures/Camardafig1b.pdf> <./Figures/Camard
+afig1c.pdf> <./Figures/Camardafig1d.pdf>]
+<./Figures/Camardafig2a.pdf, id=158, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2a.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2a.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2a.pdf  used on input line 196.
+Package pdftex.def Info: ./Figures/Camardafig2a.pdf  used on input line 192.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig2b.pdf, id=249, 578.16pt x 578.16pt>
+<./Figures/Camardafig2b.pdf, id=159, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2b.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2b.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2b.pdf  used on input line 197.
+Package pdftex.def Info: ./Figures/Camardafig2b.pdf  used on input line 193.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig2c.pdf, id=250, 578.16pt x 578.16pt>
+<./Figures/Camardafig2c.pdf, id=160, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2c.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2c.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2c.pdf  used on input line 198.
+Package pdftex.def Info: ./Figures/Camardafig2c.pdf  used on input line 194.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig2d.pdf, id=251, 578.16pt x 578.16pt>
+<./Figures/Camardafig2d.pdf, id=161, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2d.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2d.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2d.pdf  used on input line 199.
+Package pdftex.def Info: ./Figures/Camardafig2d.pdf  used on input line 195.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
- [5] (FertMort_MS.bbl
+ [4] (FertMort_MS.bbl
 Underfull \vbox (badness 1205) has occurred while \output is active []
 
- [6 <./Figures/Camardafig2a.pdf> <./Figures/Camardafig2b.pdf> <./Figures/Camard
-afig2c.pdf> <./Figures/Camardafig2d.pdf>] [7] [8])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
- [9]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 231.
+ [5 <./Figures/Camardafig2a.pdf> <./Figures/Camardafig2b.pdf> <./Figures/Camard
+afig2c.pdf> <./Figures/Camardafig2d.pdf>] [6])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+[7]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 227.
  (FertMort_MS.xwm) (FertMort_MS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `FertMort_MS.out' has not changed.
 (rerunfilecheck)             Checksum: 9CE55449CD6448E871DDE99E21198364;314.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 13821 strings out of 481199
- 235051 string characters out of 2905595
- 550151 words of memory out of 3000000
- 29134 multiletter control sequences out of 15000+200000
+ 13742 strings out of 481199
+ 233272 string characters out of 2905595
+ 548485 words of memory out of 3000000
+ 29076 multiletter control sequences out of 15000+200000
  554616 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,61p,3126b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,61p,1346b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jmabu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0700.pk> <C:\Users\jmabu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -661,9 +675,9 @@ fb><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 sfonts/cm/cmtt10.pfb><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on FertMort_MS.pdf (10 pages, 363494 bytes).
+Output written on FertMort_MS.pdf (8 pages, 337970 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
