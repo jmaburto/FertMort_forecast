@@ -101,10 +101,10 @@ We use data on death counts and population estimates from the World Population P
 \section{Method}
 
 \subsection{Model on Italian mortality data}
+The model is formulated with the mortality example to ease presentation, but the same process applies with fertility data. Supposed that deaths and exposures to risk are arranged in two matrices, 
+$\bm{Y} = (y_{ij})$ and $\bm{E} = (e_{ij})$, both with dimension $m \times n_{1}$, whose rows and columns are classified by age $\bm{a}, \,m \times 1$, and period (year) $\bm{t}_{1}, \,n_{1} \times 1$, respectively.  As with previous work, we assume that the number of deaths $y_{ij}$ at age $i$ in year $j$ is Poisson distributed with mean $\mu_{ij} \,e_{ij}$ \citep{camarda2019smooth}. In this case 
 
-For ease of presentation, we formulate the model on mortality data. We suppose that we have deaths, and exposures to risk, arranged in two matrices, 
-$\bm{Y} = (y_{ij})$ and $\bm{E} = (e_{ij})$, each $m \times n_{1}$, whose rows and columns are classified by age at death, $\bm{a}, \,m \times 1$, and year of death, $\bm{t}_{1}, \,n_{1} \times 1$, respectively.  
-We assume that the number of deaths $y_{ij}$ at age $i$ in year $j$ is Poisson distributed with mean $\mu_{ij} \,e_{ij}$. %The value of $\mu_{ij}$ is commonly named force of mortality. 
+ %The value of $\mu_{ij}$ is commonly named force of mortality. 
 Forecasting aims to reconstruct trends in $\mu_{ij}$ for $n_{2}$ future years, $\bm{y}_{2}, n_{2} \times 1$.
 
 It is common practice to summarize mortality age-patterns by computing measures such as life expectancy at birth ($e_{0}$) and lifespan disparity measures. Time-trends of these summary measures are often regular and well-understood. Forecasting these time-series is therefore an easier task. Figure~\ref{fig:CamardaMort} (top-left panel) presents observed $e_{0}$ for Italian females from 1960 to 2016 along with the medium variant up to 2050 as computed by the UN. A second constraint is given by future values of $e^{\dagger}$, a lifespan disparity measure defined as the average years of life lost in a population attributable to death \citep{VaupelCRdemo2003}. Future values of this measure are obtained by conventional time-series models and portrayed in the top-right panel of Figure~\ref{fig:CamardaMort}. Future mortality patterns, both by age and over time, must adhere to these predicted trends.
