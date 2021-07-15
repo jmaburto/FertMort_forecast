@@ -5,10 +5,9 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: apa.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bib_FertMort.bib
-Warning--I didn't find a database entry for "UN2017"
 You've used 22 entries,
             1940 wiz_defined-function locations,
-            632 strings with 8094 characters,
+            630 strings with 8082 characters,
 and the built_in function-call counts, 9608 in all, are:
 = -- 934
 > -- 417
@@ -47,4 +46,3 @@ warning$ -- 0
 while$ -- 79
 width$ -- 0
 write$ -- 285
-(There was 1 warning)
