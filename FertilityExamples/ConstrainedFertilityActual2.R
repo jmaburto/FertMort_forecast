@@ -421,7 +421,7 @@ Constr.TFR <-  function(BETASF){
     deriv.TFR[wr,i] <- t(ones.m)%*% diag(MU.F[,i]) %*% Bx
   }
   out.TFR <- list(delta.TFR=delta.TFR,
-                 deriv.TFR=deriv.TFR)
+                  deriv.TFR=deriv.TFR)
   return(out.TFR)
 }
 ## constraints on MAB over "future" years
