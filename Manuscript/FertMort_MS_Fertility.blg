@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: FertMort_MS_Fertility.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apa.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: Bib_FertMort.bib
+You've used 22 entries,
+            1940 wiz_defined-function locations,
+            630 strings with 8001 characters,
+and the built_in function-call counts, 9580 in all, are:
+= -- 932
+> -- 411
+< -- 12
++ -- 150
+- -- 140
+* -- 896
+:= -- 1638
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 177
+chr.to.int$ -- 22
+cite$ -- 22
+duplicate$ -- 330
+empty$ -- 659
+format.name$ -- 172
+if$ -- 1850
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 23
+newline$ -- 112
+num.names$ -- 66
+pop$ -- 149
+preamble$ -- 1
+purify$ -- 180
+quote$ -- 0
+skip$ -- 247
+stack$ -- 0
+substring$ -- 746
+swap$ -- 61
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 128
+warning$ -- 0
+while$ -- 79
+width$ -- 0
+write$ -- 285
