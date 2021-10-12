@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  16 SEP 2021 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  12 OCT 2021 16:18
 entering extended mode
 **./FertMort_MS_Fertility.tex
 (FertMort_MS_Fertility.tex
@@ -564,77 +564,77 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 
-      [1]
-<./Figures/Camardafig1a.pdf, id=102, 578.16pt x 578.16pt>
+l.95 \section
+             {Data} [1]
+<./Figures/Camardafig1a.pdf, id=105, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1a.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1a.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1a.pdf  used on input line 109.
+Package pdftex.def Info: ./Figures/Camardafig1a.pdf  used on input line 113.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig1b.pdf, id=103, 578.16pt x 578.16pt>
+<./Figures/Camardafig1b.pdf, id=106, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1b.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1b.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1b.pdf  used on input line 110.
+Package pdftex.def Info: ./Figures/Camardafig1b.pdf  used on input line 114.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig1c.pdf, id=104, 578.16pt x 578.16pt>
+<./Figures/Camardafig1c.pdf, id=107, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1c.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1c.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1c.pdf  used on input line 111.
+Package pdftex.def Info: ./Figures/Camardafig1c.pdf  used on input line 115.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig1d.pdf, id=105, 578.16pt x 578.16pt>
+<./Figures/Camardafig1d.pdf, id=108, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig1d.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig1d.pdf>
-Package pdftex.def Info: ./Figures/Camardafig1d.pdf  used on input line 112.
+Package pdftex.def Info: ./Figures/Camardafig1d.pdf  used on input line 116.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
  [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [3 <./Figures/Camardafig1a.pdf> <./Figures/Camardafig1b.pdf> <./Figures/Camard
 afig1c.pdf> <./Figures/Camardafig1d.pdf>]
-<./Figures/Camardafig2a.pdf, id=161, 578.16pt x 578.16pt>
+<./Figures/Camardafig2a.pdf, id=165, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2a.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2a.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2a.pdf  used on input line 188.
+Package pdftex.def Info: ./Figures/Camardafig2a.pdf  used on input line 192.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig2b.pdf, id=162, 578.16pt x 578.16pt>
+<./Figures/Camardafig2b.pdf, id=166, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2b.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2b.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2b.pdf  used on input line 189.
+Package pdftex.def Info: ./Figures/Camardafig2b.pdf  used on input line 193.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig2c.pdf, id=163, 578.16pt x 578.16pt>
+<./Figures/Camardafig2c.pdf, id=167, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2c.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2c.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2c.pdf  used on input line 190.
+Package pdftex.def Info: ./Figures/Camardafig2c.pdf  used on input line 194.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
-<./Figures/Camardafig2d.pdf, id=164, 578.16pt x 578.16pt>
+<./Figures/Camardafig2d.pdf, id=168, 578.16pt x 578.16pt>
 File: ./Figures/Camardafig2d.pdf Graphic file (type pdf)
 <use ./Figures/Camardafig2d.pdf>
-Package pdftex.def Info: ./Figures/Camardafig2d.pdf  used on input line 191.
+Package pdftex.def Info: ./Figures/Camardafig2d.pdf  used on input line 195.
 (pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
  [4] (FertMort_MS_Fertility.bbl
 Underfull \vbox (badness 1205) has occurred while \output is active []
 
  [5 <./Figures/Camardafig2a.pdf> <./Figures/Camardafig2b.pdf> <./Figures/Camard
 afig2c.pdf> <./Figures/Camardafig2d.pdf>] [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
  [7]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 223.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 227.
  (FertMort_MS_Fertility.xwm)
 (FertMort_MS_Fertility.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `FertMort_MS_Fertility.out' has not changed.
-(rerunfilecheck)             Checksum: 072988FC1DDFC4B49C80C88A2536B835;323.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+(rerunfilecheck)             Checksum: 503ECB11F94006D89B2B130E847290B1;453.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 13740 strings out of 481199
- 233488 string characters out of 2905595
+ 13744 strings out of 481199
+ 233548 string characters out of 2905595
  548561 words of memory out of 3000000
- 29074 multiletter control sequences out of 15000+200000
+ 29076 multiletter control sequences out of 15000+200000
  554616 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,61p,1420b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,61p,1377b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jmabu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0700.pk> <C:\Users\jmabu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -661,9 +661,9 @@ fb><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 sfonts/cm/cmtt10.pfb><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb><C:/Users/jmabu/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on FertMort_MS_Fertility.pdf (8 pages, 336919 bytes).
+Output written on FertMort_MS_Fertility.pdf (8 pages, 336812 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
